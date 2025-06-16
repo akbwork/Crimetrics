@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from Missing_Data_Imputation import impute_relationship
+from Crimetrics.dev_akb.auto_complete_module_1.Missing_Data_Imputation import impute_relationship
 
 st.set_page_config(layout="wide")
 st.title("Relationship Imputation from FIR Data")
@@ -25,7 +25,7 @@ if uploaded_file is not None:
         sns.heatmap(cm, annot=True, fmt='d', xticklabels=class_labels, yticklabels=class_labels, cmap='Blues', ax=ax)
         st.pyplot(fig)
     else:
-        st.warning("⚠️ No missing 'relationship' values to impute or evaluation skipped.")
+        st.warning("No missing 'relationship' values to impute or evaluation skipped.")
 
     st.write("### Preview of Imputed Data")
     st.dataframe(imputed_df.head(20))

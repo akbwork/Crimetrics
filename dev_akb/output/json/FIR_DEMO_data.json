@@ -1,0 +1,96 @@
+{
+  "FIR": {
+    "District": "Cyberabad",
+    "Year": "2016",
+    "FIR_No": "353/2016",
+    "Date": "20.08.2016",
+    "Police_Station": "RGI Airport",
+    "Section": "337IPC",
+    "Occurrence_of_Offense": {
+      "Day": "",
+      "Date": "19.08.2016",
+      "Time_From": "05:00 hrs"
+    },
+    "Information_Received_At_PS": {
+      "Date": "20.08.2016",
+      "Time": "14:30 hrs"
+    },
+    "General_Diary_Reference": {
+      "Entry_No": "",
+      "Date": "20.08.2016",
+      "Time": ""
+    },
+    "Type_of_Information": "Written English",
+    "Place_of_Occurrence": {
+      "Direction_and_Distance_From_PS": "4Kms West",
+      "Beat_No": "1",
+      "Place": "Near ORR Exit No: 16, Shamshabad",
+      "Street_Village": "Shamshabad",
+      "Area_Mandal": "Shamshabad",
+      "City_District": "Ranga Reddy",
+      "State": "Telangana"
+    },
+    "Complainant_Informant": {
+      "Name": "Sri. Sunil Yadav",
+      "Father_Husband_Name": "S/o Dalip Singh Yadav",
+      "Age": "25yrs",
+      "Nationality": "Indian",
+      "Occupation": "Soft were Engineer",
+      "Address": {
+        "Flat_No": "502",
+        "Street_Village": "Kireet Residency, Raja Rajeshwari Nagar",
+        "Area_Mandal": "Kondapur",
+        "City_District": "Ranga Reddy",
+        "State": "Telangana"
+      },
+      "Phone_No": "998566662,9424871005,9560798200"
+    },
+    "Accused": {
+      "Serial_No": "1.",
+      "Name": "Driver of OLA Cab No:AP-28-TV-5065 and OLA Cab",
+      "Cab_No": "AP-28-TV-5065",
+      "Nationality": "Indian",
+      "Management": ""
+    },
+    "Victim": {
+      "Name": "Pallav Vyas",
+      "Father_Name": "S/o Rajender Vyas",
+      "Age": "25 yrs",
+      "Occupation": "Chemical Engineer",
+      "Address": {
+        "Flat_No": "502",
+        "Street_Village": "Kireet Residency, Raja Rajeshwari Nagar",
+        "Area_Mandal": "Kondapur",
+        "City_District": ""
+      },
+      "Injuries": "Severe head injuries",
+      "Condition": "Currently unconscious",
+      "Treatment": {
+        "Initial": "First aid at Trident Hospital, Shamshbad",
+        "Shifted_To": "Care hospital Gachibowli"
+      }
+    },
+    "Incident_Details": {
+      "Date": "19.08.2016",
+      "Time": "05:00 hrs",
+      "Location": "Near ORR Exit No: 16, Shamshabad",
+      "Description": "Accident due to rash and negligent manner"
+    },
+    "Investigation": {
+      "Case_Registered_U_S": "",
+      "Case_No": "",
+      "Investigation_Officer": {
+        "Rank": "Sub-Inspector of Police",
+        "Name": "Sri. V. Srinivas"
+      },
+      "Officer_in_Charge": {
+        "Name": "Mw",
+        "Rank": "Inspector of Police",
+        "Signature": ""
+      },
+      "Date_Dispatch_Court": "20.08.2016"
+    },
+    "Reasons_for_Delay": "Delay due to critical condition of patient",
+    "Court": "IN THE COURT OF HONBLE VIII METROPOLITAN MAGISTRATE AT RAJENDRA NAGAR,CYBERABAD"
+  }
+}
