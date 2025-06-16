@@ -12,6 +12,7 @@ import json
 import tempfile
 import pandas as pd
 import sys
+import re
 
 # Add the OCR pipeline directory to Python path to import modules
 # Get the absolute path to the orc_pipeline_0 directory
@@ -27,7 +28,7 @@ try:
     from ollama_parsing_agent import OllamaParsingAgent
     from time_it import time_it
     
-    st.success("Created Ai Extraction Pipeline")
+    st.success("Created AI Extraction Pipeline")
 except ImportError as e:
     st.error(f"Error importing OCR pipeline modules: {e}")
     st.info("Please make sure the OCR pipeline modules are in the correct location")
@@ -43,7 +44,7 @@ except ImportError as e:
             return "Sample OCR text - module not properly loaded"
     
     class OllamaParsingAgent:
-        def __init__(self, model="llama3"):
+        def __init__(self, model="deepseek-r1:latest"):
             self.model = model
         
         def parse_fir(self, ocr_text):
@@ -82,6 +83,65 @@ except ImportError as e:
 
 st.title("FIR Digitisation Module")
 st.write("Upload an FIR document for automatic digitisation and structured data extraction.")
+
+def extract_basic_info_from_ocr(ocr_text, fir_data):
+    """Extract basic information from OCR text to help fill in gaps"""
+    # FIR Number
+    fir_match = re.search(r'FIR No\.?\s*[:.]?\s*([0-9\/]+)', ocr_text, re.IGNORECASE)
+    if fir_match and not fir_data["FIR"]["FIR_No"]:
+        fir_data["FIR"]["FIR_No"] = fir_match.group(1).strip()
+        
+        # Try to extract year from FIR number
+        year_match = re.search(r'/(\d{4})', fir_match.group(1).strip())
+        if year_match and not fir_data["FIR"]["Year"]:
+            fir_data["FIR"]["Year"] = year_match.group(1)
+    
+    # Police Station
+    ps_match = re.search(r'Police Station\s*[:.]?\s*([A-Za-z\s]+)', ocr_text, re.IGNORECASE)
+    if ps_match and not fir_data["FIR"]["Police_Station"]:
+        fir_data["FIR"]["Police_Station"] = ps_match.group(1).strip()
+    
+    # Section
+    section_match = re.search(r'section\s*[:.]?\s*([0-9\s,]+\s*[A-Za-z\s]+)', ocr_text, re.IGNORECASE)
+    if section_match and not fir_data["FIR"]["Section"]:
+        fir_data["FIR"]["Section"] = section_match.group(1).strip()
+    
+    # Complainant Name
+    name_match = re.search(r'complainant[\'s]*\s*name\s*[:.]?\s*([A-Za-z\.\s]+)', ocr_text, re.IGNORECASE)
+    if name_match and not fir_data["Complainant_Informant"]["Name"]:
+        fir_data["Complainant_Informant"]["Name"] = name_match.group(1).strip()
+    
+    # Add this section to extract incident description
+    # Look for common patterns that might indicate an incident description
+    description_patterns = [
+        r'(?:brief\s+facts|incident\s+details|description\s+of\s+offence|brief\s+description).*?[:.]\s*(.*?)(?=\n\n|\Z)',
+        r'(?:statement\s+of\s+complainant|facts\s+of\s+the\s+case).*?[:.]\s*(.*?)(?=\n\n|\Z)',
+        r'(?:On\s+\d{1,2}[./-]\d{1,2}[./-]\d{2,4}.*?at\s+about.*?hrs)(.{50,}?)(?=\n\n|\Z)'
+    ]
+    
+    # Try each pattern to find a description
+    for pattern in description_patterns:
+        desc_match = re.search(pattern, ocr_text, re.IGNORECASE | re.DOTALL)
+        if desc_match and not fir_data["Incident_Details"]["Description"]:
+            # Clean up the description (remove extra spaces, newlines)
+            description = desc_match.group(1).strip()
+            description = re.sub(r'\s+', ' ', description)
+            
+            # If description is too short, it might be incomplete
+            if len(description) > 50:  # Only use if reasonably long
+                fir_data["Incident_Details"]["Description"] = description
+                break
+    
+    # If no specific pattern matched, try to extract a large text block that might be the description
+    if not fir_data["Incident_Details"]["Description"]:
+        # Look for a paragraph after the complainant info and before the signature/officer info
+        large_text_blocks = re.findall(r'\n\n(.{100,}?)\n\n', ocr_text, re.DOTALL)
+        if large_text_blocks:
+            # Get the longest text block, it's likely the description
+            longest_block = max(large_text_blocks, key=len)
+            fir_data["Incident_Details"]["Description"] = re.sub(r'\s+', ' ', longest_block.strip())
+    
+    return fir_data
 
 def display_fir_data_tables(fir_data):
     """Display FIR data in structured tables"""
@@ -253,16 +313,25 @@ def display_fir_data_tables(fir_data):
     # 5. Incident Details
     with st.expander("Incident Details", expanded=False):
         incident = fir_data.get('Incident_Details', {})
-        incident_df = pd.DataFrame({
-            'Field': ['Date', 'Time', 'Location', 'Description'],
+        
+        # Display date, time, location in a table
+        incident_basic_df = pd.DataFrame({
+            'Field': ['Date', 'Time', 'Location'],
             'Value': [
                 incident.get('Date', ''),
                 incident.get('Time', ''),
-                incident.get('Location', ''),
-                incident.get('Description', '')
+                incident.get('Location', '')
             ]
         })
-        st.table(incident_df)
+        st.table(incident_basic_df)
+        
+        # Display the description in a dedicated text area with more space
+        st.subheader("Incident Description")
+        description = incident.get('Description', '')
+        if description:
+            st.text_area("", description, height=150, disabled=True)
+        else:
+            st.info("No incident description available")
     
     # 6. Investigation Details
     with st.expander("Investigation Details", expanded=False):
@@ -350,6 +419,10 @@ def process_fir_streamlit(pdf_path, temp_dir):
     try:
         agent = OllamaParsingAgent(model="llama3")
         fir_data = agent.parse_fir(ocr_text)
+        
+        # Make sure to call extract_basic_info_from_ocr
+        fir_data = extract_basic_info_from_ocr(ocr_text, fir_data)
+        
         progress_text.text("Processing complete! Displaying results...")
     except Exception as e:
         st.warning(f"Error connecting to Ollama: {e}")
@@ -357,6 +430,9 @@ def process_fir_streamlit(pdf_path, temp_dir):
         # Return empty template if Ollama fails
         agent = OllamaParsingAgent()
         fir_data = agent._empty_fir_template()
+        
+        # Even with fallback, try to extract info from OCR
+        fir_data = extract_basic_info_from_ocr(ocr_text, fir_data)
     
     return fir_data
 
@@ -418,5 +494,3 @@ if uploaded_file is not None:
 # 4. Structured information is parsed using NLP
 # 5. Results are displayed in organized tables
 # """)
-
-# '''
