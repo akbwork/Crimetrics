@@ -1,0 +1,61 @@
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import LabelEncoder
+from sentence_transformers import SentenceTransformer
+from xgboost import XGBClassifier
+from sklearn.model_selection import cross_val_score
+import joblib
+
+# Load dataset
+df = pd.read_csv("crime_type_prediction_dataset_rajasthan.csv")
+df.dropna(subset=["fir_narrative", "crime_category"], inplace=True)
+
+# Encode categorical fields
+categorical_cols = ['district', 'crime_location_type', 'season',
+                    'reported_by', 'victim_gender', 'accused_gender', 'weapon_used',
+                    'vehicle_involved', 'relationship', 'day_of_week']
+encoders = {}
+for col in categorical_cols:
+    le = LabelEncoder()
+    if col == 'day_of_week':
+        correct_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+        le.classes_ = np.array(correct_order)
+        df[col] = le.transform(df[col])
+    else:
+        df[col] = le.fit_transform(df[col])
+    encoders[col] = le
+
+# DateTime processing
+df['hour_of_crime'] = pd.to_datetime(df['time_of_crime'], errors='coerce').dt.hour.fillna(0).astype(int)
+
+# FIR Text Embedding
+text_model = SentenceTransformer('all-MiniLM-L6-v2')
+X_text = text_model.encode(df['fir_narrative'].tolist(), show_progress_bar=True)
+
+# Structured Features
+structured_cols = ['district', 'crime_location_type', 'victim_age',
+                   'accused_age', 'season', 'reported_by', 'victim_gender', 
+                   'accused_gender', 'weapon_used', 'vehicle_involved', 
+                   'num_accused', 'relationship', 'day_of_week', 'hour_of_crime']
+X_struct = df[structured_cols].values
+
+# 💥 Weight FIR narrative 3x more
+X_text_weighted = np.hstack([X_text] * 3)
+
+# Combine structured and weighted text features
+X_final = np.hstack([X_struct, X_text_weighted])
+
+# Encode target
+label_encoder = LabelEncoder()
+y = label_encoder.fit_transform(df['crime_category'])
+
+# Model training
+model = XGBClassifier(eval_metric='mlogloss')
+print("5-Fold CV Accuracy:", cross_val_score(model, X_final, y, cv=5).mean())
+model.fit(X_final, y)
+
+# Save
+joblib.dump(model, "crime_type_classifier_weighted.pkl")
+joblib.dump(text_model, "sentence_transformer_model.pkl")
+joblib.dump(label_encoder, "label_encoder.pkl")
+joblib.dump(encoders, "structured_encoders.pkl")
