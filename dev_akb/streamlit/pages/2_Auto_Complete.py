@@ -96,15 +96,15 @@ if uploaded_file is not None:
             mime="text/csv"
         )
 
-# Add information about the module
-st.markdown("""
----
-### About Auto Complete: Relationship Imputation
+# # Add information about the module
+# st.markdown("""
+# ---
+# ### About Auto Complete: Relationship Imputation
 
-This module uses machine learning to predict missing relationship values in FIR data. The system:
+# This module uses machine learning to predict missing relationship values in FIR data. The system:
 
-- Analyzes patterns in existing relationship data
-- Uses features like age, gender, and crime type to make predictions
-- Provides accuracy metrics to evaluate prediction quality
-- Fills in missing values without altering existing data
-""")
+# - Analyzes patterns in existing relationship data
+# - Uses features like age, gender, and crime type to make predictions
+# - Provides accuracy metrics to evaluate prediction quality
+# - Fills in missing values without altering existing data
+# """)

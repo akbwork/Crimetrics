@@ -49,7 +49,32 @@ def load_models():
         # Load label encoder
         encoder_path = os.path.join(model_dir, 'label_encoder.pkl')
         with open(encoder_path, 'rb') as f:
-            le = pickle.load(f)
+            le_data = pickle.load(f)
+            
+        # Check if le_data is already a LabelEncoder
+        if hasattr(le_data, 'inverse_transform'):
+            le = le_data
+        else:
+            # If it's just the classes array, create a new LabelEncoder
+            from sklearn.preprocessing import LabelEncoder
+            le = LabelEncoder()
+            if isinstance(le_data, np.ndarray):
+                le.classes_ = le_data
+            else:
+                # If it's something else entirely, create a simple mapping
+                st.warning("Label encoder data not in expected format. Using default mapping.")
+                le = {
+                    0: "Theft",
+                    1: "Assault",
+                    2: "Fraud",
+                    3: "Homicide",
+                    4: "Kidnapping",
+                    5: "Sexual Assault",
+                    6: "Narcotics",
+                    7: "Robbery",
+                    8: "Domestic Violence",
+                    9: "Other"
+                }
             
         return text_model, clf, le
     except Exception as e:
@@ -75,7 +100,7 @@ st.write("This module predicts the crime category based on FIR narrative and str
 # Load models
 text_model, clf, le = load_models()
 
-if text_model and clf and le:
+if text_model is not None and clf is not None and le is not None:
     # Form for user input
     with st.form("crime_prediction_form"):
         # Text input

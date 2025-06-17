@@ -1,5 +1,4 @@
 fir_narrative,district,police_station,crime_location_type,date_of_crime,time_of_crime,day_of_week,season,reported_by,victim_gender,victim_age,accused_gender,accused_age,weapon_used,vehicle_involved,num_accused,relationship,ipc_section,crime_category
-Accident due to rash and negligent manner,Cyberabad,RGI Airport,Road,2016-08-19,05:00:04,Friday,Monsoon,Sri. Sunil Yadav,Male,25,Male,35,None,Yes (OLA Cab No: AP-28-TV-5065),1,Acquaintance,337IPC,Rash or Negligent Act Causing Hurt
 The accused used a knife to fatally wound the victim at their residence.,Pali,Station C,highway,2024-12-10,03:43:58,Tuesday,Monsoon,Victim,Other,23,Female,30,knife,scooter,5,Friend,IPC 302 (Murder),Murder
 The accused forcibly entered the victim’s home and committed the crime.,Alwar,Station B,residential area,2024-08-26,17:54:17,Monday,Monsoon,Eyewitness,Male,21,Other,56,gun,auto,2,Neighbor,IPC 376 (Rape),Rape
 "A heated argument turned violent at the market, injuring one person.",Beawar,Station C,market,2025-03-16,04:34:47,Sunday,Monsoon,Police,Male,57,Female,46,bare hands,bike,5,Neighbor,IPC 323 (Assault),Assault
@@ -10,7 +9,7 @@ The accused used a gun to fatally wound the victim at their residence.,Dausa,Sta
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Barmer,Station C,highway,2024-08-04,20:50:30,Sunday,Spring,Relative,Male,10,Male,24,bare hands,bike,4,Relative,IPC 376 (Rape),Rape
 The accused forcibly entered the victim’s home and committed the crime.,Sawai Madhopur,Station A,school,2025-03-09,23:00:29,Sunday,Winter,Relative,Other,36,Female,44,gun,car,5,Relative,IPC 376 (Rape),Rape
 The body of the victim was discovered at a residential area with signs of struggle.,Udaipur,Station B,residential area,2025-05-11,11:18:05,Sunday,Summer,Police,Female,71,Other,45,knife,car,1,Relative,IPC 302 (Murder),Murder
-The body of the victim was discovered at a school with signs of struggle.,Dausa,Station A,school,2025-05-21,08:24:04,Wednesday,Winter,Police,Male,57,Other,45,bare hands,scooter,5,Friend,IPC 302 (Murder),Murder
+The body of the victim was discovered at a school with signs of struggle.,Dausa,Station A,school,2025-05-21,08:24:04,Wednesday,Winter,Police,Male,57,Other,45,bare hands,scooter,5,Acquaintance,IPC 302 (Murder),Murder
 The accused forcibly entered the victim’s home and committed the crime.,Bikaner,Station C,school,2024-07-03,15:53:19,Wednesday,Monsoon,Police,Male,22,Male,29,gun,bike,2,Acquaintance,IPC 376 (Rape),Rape
 "A violent brawl broke out at a school, leading to serious injuries.",Didwana-Kuchaman,Station A,school,2024-11-25,07:53:51,Monday,Spring,Victim,Male,50,Female,45,knife,auto,5,Acquaintance,IPC 323 (Assault),Assault
 The victim was robbed at gunpoint while returning home from work.,Karauli,Station B,bus stop,2025-03-24,11:30:26,Monday,Winter,Relative,Female,56,Female,50,stick,bike,1,Friend,IPC 392 (Robbery),Robbery
@@ -23,14 +22,14 @@ Jewelry and cash were stolen from a park during daytime.,Bharatpur,Station A,par
 The accused used a stick to fatally wound the victim at their residence.,Dausa,Station B,highway,2025-05-23,21:19:26,Friday,Summer,Victim,Other,45,Other,33,stick,scooter,2,Stranger,IPC 302 (Murder),Murder
 Pickpocketing occurred in a crowded park.,Bharatpur,Station B,park,2025-02-01,16:58:51,Saturday,Winter,Police,Other,25,Male,59,gun,car,5,Acquaintance,IPC 379 (Theft),Theft
 The victim’s vehicle was broken into and items were stolen.,Rajsamand,Station A,highway,2024-12-31,15:14:32,Tuesday,Monsoon,Eyewitness,Female,27,Female,42,stick,bike,5,Friend,IPC 379 (Theft),Theft
-Unknown suspects broke into a bus stop and stole valuables.,Jaipur,Station C,bus stop,2025-04-14,22:42:45,Monday,Monsoon,Eyewitness,Other,64,Other,56,gun,auto,3,Neighbor,IPC 379 (Theft),Theft
+Unknown suspects broke into a bus stop and stole valuables.,Jaipur,Station C,bus stop,2025-04-14,22:42:45,Monday,Monsoon,Eyewitness,Other,64,Other,56,gun,auto,3,Friend,IPC 379 (Theft),Theft
 "An armed robbery took place at a bus stop, threatening the occupants.",Salumbar,Station A,bus stop,2025-03-05,17:36:59,Wednesday,Winter,Police,Male,34,Female,49,gun,auto,1,Acquaintance,IPC 392 (Robbery),Robbery
 The body of the victim was discovered at a market with signs of struggle.,Nagaur,Station B,market,2024-09-11,05:06:29,Wednesday,Summer,Eyewitness,Female,41,Female,54,bare hands,scooter,3,Friend,IPC 302 (Murder),Murder
 The accused physically assaulted the victim using a gun at a school.,Pali,Station C,school,2025-02-27,09:16:49,Thursday,Summer,Relative,Male,39,Male,24,gun,scooter,1,Friend,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a residential area.,Kota,Station C,residential area,2024-08-10,12:22:11,Saturday,Monsoon,Police,Male,71,Female,54,gun,auto,1,Neighbor,IPC 376 (Rape),Rape
 Pickpocketing occurred in a crowded market.,Alwar,Station A,market,2024-07-14,11:28:41,Sunday,Spring,Relative,Male,78,Male,62,knife,bike,2,Neighbor,IPC 379 (Theft),Theft
 The accused used a bare hands to fatally wound the victim at their residence.,Jalore,Station B,bus stop,2024-12-25,09:41:20,Wednesday,Monsoon,Relative,Male,23,Male,54,bare hands,scooter,3,Acquaintance,IPC 302 (Murder),Murder
-The victim was robbed at gunpoint while returning home from work.,Baran,Station C,market,2024-11-23,12:50:54,Saturday,Summer,Relative,Female,33,Female,17,knife,bike,4,Neighbor,IPC 392 (Robbery),Robbery
+The victim was robbed at gunpoint while returning home from work.,Baran,Station C,market,2024-11-23,12:50:54,Saturday,Summer,Relative,Female,33,Female,17,knife,bike,4,Friend,IPC 392 (Robbery),Robbery
 The accused physically assaulted the victim using a knife at a bus stop.,Tonk,Station B,bus stop,2025-02-12,16:54:55,Wednesday,Spring,Relative,Other,52,Female,39,knife,bike,2,Neighbor,IPC 323 (Assault),Assault
 Jewelry and cash were stolen from a highway during daytime.,Dungarpur,Station B,highway,2025-04-17,17:39:20,Thursday,Winter,Eyewitness,Other,54,Female,25,gun,bike,4,Friend,IPC 379 (Theft),Theft
 Unknown suspects broke into a market and stole valuables.,Phalodi,Station C,market,2025-03-09,02:24:05,Sunday,Spring,Relative,Other,28,Male,64,stick,bike,3,Relative,IPC 379 (Theft),Theft
@@ -54,7 +53,7 @@ An incident of rape was reported where the accused lured the victim to a residen
 The accused forcefully snatched the victim's belongings and fled on a car.,Pratapgarh,Station C,highway,2024-07-01,16:21:11,Monday,Monsoon,Relative,Female,22,Female,56,knife,car,2,Neighbor,IPC 392 (Robbery),Robbery
 The body of the victim was discovered at a school with signs of struggle.,Baran,Station C,school,2024-06-05,22:16:49,Wednesday,Winter,Relative,Male,35,Female,29,knife,auto,1,Friend,IPC 302 (Murder),Murder
 Unknown suspects broke into a park and stole valuables.,Udaipur,Station B,park,2025-01-27,07:59:43,Monday,Summer,Eyewitness,Male,33,Other,20,knife,bike,4,Neighbor,IPC 379 (Theft),Theft
-A gang of masked robbers looted a store at a residential area.,Jodhpur,Station B,residential area,2025-03-21,09:48:01,Friday,Monsoon,Eyewitness,Other,63,Other,54,knife,auto,2,Neighbor,IPC 392 (Robbery),Robbery
+A gang of masked robbers looted a store at a residential area.,Jodhpur,Station B,residential area,2025-03-21,09:48:01,Friday,Monsoon,Eyewitness,Other,63,Other,54,knife,auto,2,Stranger,IPC 392 (Robbery),Robbery
 The victim was robbed at gunpoint while returning home from work.,Tonk,Station C,school,2024-11-08,08:00:01,Friday,Summer,Victim,Female,54,Male,61,bare hands,bike,3,Friend,IPC 392 (Robbery),Robbery
 "A heated argument turned violent at the residential area, injuring one person.",Jhalawar,Station C,residential area,2024-10-29,12:36:15,Tuesday,Spring,Relative,Female,75,Other,40,bare hands,scooter,2,Acquaintance,IPC 323 (Assault),Assault
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Churu,Station C,school,2025-05-21,11:02:13,Wednesday,Monsoon,Relative,Other,56,Other,20,bare hands,scooter,3,Neighbor,IPC 376 (Rape),Rape
@@ -76,7 +75,7 @@ Police received a report of assault involving two individuals at a park.,Bikaner
 The accused used a knife to fatally wound the victim at their residence.,Rajsamand,Station C,bus stop,2024-06-22,13:58:32,Saturday,Winter,Police,Other,64,Male,47,knife,scooter,5,Friend,IPC 302 (Murder),Murder
 The victim was robbed at gunpoint while returning home from work.,Barmer,Station B,park,2024-08-19,18:16:26,Monday,Monsoon,Victim,Other,20,Female,18,gun,auto,3,Neighbor,IPC 392 (Robbery),Robbery
 The victim reported being sexually assaulted by a Relative in a highway.,Barmer,Station C,highway,2025-05-21,04:28:17,Wednesday,Spring,Eyewitness,Female,22,Female,27,stick,auto,1,Relative,IPC 376 (Rape),Rape
-Unknown suspects broke into a market and stole valuables.,Rajsamand,Station B,market,2025-05-19,16:52:39,Monday,Monsoon,Eyewitness,Male,69,Other,69,bare hands,car,3,Stranger,IPC 379 (Theft),Theft
+Unknown suspects broke into a market and stole valuables.,Rajsamand,Station B,market,2025-05-19,16:52:39,Monday,Monsoon,Eyewitness,Male,69,Other,69,bare hands,car,3,Neighbor,IPC 379 (Theft),Theft
 Police received a report of assault involving two individuals at a residential area.,Dungarpur,Station A,residential area,2024-06-08,19:52:57,Saturday,Winter,Victim,Male,17,Female,55,gun,bike,1,Acquaintance,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a highway.,Barmer,Station B,highway,2024-10-25,01:40:52,Friday,Monsoon,Police,Other,60,Female,24,gun,auto,4,Stranger,IPC 376 (Rape),Rape
 A gang of masked robbers looted a store at a school.,Dungarpur,Station A,school,2024-07-16,23:45:23,Tuesday,Winter,Eyewitness,Female,73,Other,15,knife,bike,5,Acquaintance,IPC 392 (Robbery),Robbery
@@ -174,7 +173,7 @@ A gang of masked robbers looted a store at a bus stop.,Jhalawar,Station C,bus st
 The accused forcefully snatched the victim's belongings and fled on a bike.,Beawar,Station A,bus stop,2025-03-06,02:25:20,Thursday,Monsoon,Police,Female,30,Male,24,gun,bike,4,Stranger,IPC 392 (Robbery),Robbery
 Jewelry and cash were stolen from a bus stop during daytime.,Didwana-Kuchaman,Station B,bus stop,2025-04-26,05:04:37,Saturday,Summer,Eyewitness,Other,38,Other,57,gun,car,3,Neighbor,IPC 379 (Theft),Theft
 The accused forcibly entered the victim’s home and committed the crime.,Nagaur,Station A,bus stop,2024-07-31,00:14:59,Wednesday,Summer,Victim,Female,41,Female,20,bare hands,auto,2,Stranger,IPC 376 (Rape),Rape
-"A violent brawl broke out at a residential area, leading to serious injuries.",Balotra,Station A,residential area,2024-10-20,02:12:41,Sunday,Spring,Eyewitness,Other,75,Female,64,knife,scooter,2,Neighbor,IPC 323 (Assault),Assault
+"A violent brawl broke out at a residential area, leading to serious injuries.",Balotra,Station A,residential area,2024-10-20,02:12:41,Sunday,Spring,Eyewitness,Other,75,Female,64,knife,scooter,2,Acquaintance,IPC 323 (Assault),Assault
 A rape case was registered involving a Acquaintance in an isolated residential area.,Jaipur,Station A,residential area,2025-03-21,10:24:49,Friday,Monsoon,Police,Other,19,Other,47,bare hands,car,3,Acquaintance,IPC 376 (Rape),Rape
 "A violent brawl broke out at a market, leading to serious injuries.",Beawar,Station B,market,2025-03-26,20:01:35,Wednesday,Monsoon,Victim,Other,49,Female,45,bare hands,car,2,Relative,IPC 323 (Assault),Assault
 The accused used a stick to fatally wound the victim at their residence.,Dausa,Station C,market,2025-02-05,17:30:57,Wednesday,Summer,Police,Other,68,Other,41,stick,bike,5,Friend,IPC 302 (Murder),Murder
@@ -218,10 +217,10 @@ A local resident was found murdered in a market under mysterious circumstances.,
 Police received a report of assault involving two individuals at a residential area.,Beawar,Station C,residential area,2024-05-31,16:26:18,Friday,Spring,Relative,Other,28,Male,62,knife,car,4,Acquaintance,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a residential area.,Sirohi,Station A,residential area,2024-12-04,16:53:12,Wednesday,Winter,Police,Other,62,Female,62,knife,car,4,Relative,IPC 376 (Rape),Rape
 A theft was reported where items were stolen from a market.,Sikar,Station C,market,2025-04-01,14:48:28,Tuesday,Summer,Police,Other,40,Other,46,stick,auto,5,Friend,IPC 379 (Theft),Theft
-The victim was robbed at gunpoint while returning home from work.,Sirohi,Station B,bus stop,2024-07-25,11:54:08,Thursday,Summer,Relative,Other,66,Female,55,knife,car,3,Friend,IPC 392 (Robbery),Robbery
+The victim was robbed at gunpoint while returning home from work.,Sirohi,Station B,bus stop,2024-07-25,11:54:08,Thursday,Summer,Relative,Other,66,Female,55,knife,car,3,Relative,IPC 392 (Robbery),Robbery
 Police received a report of assault involving two individuals at a school.,Alwar,Station C,school,2025-04-24,16:19:06,Thursday,Winter,Victim,Other,39,Male,51,gun,bike,4,Friend,IPC 323 (Assault),Assault
 The victim was attacked from behind with a knife at a park.,Jaipur,Station C,park,2024-12-11,05:42:05,Wednesday,Monsoon,Relative,Other,71,Male,15,knife,auto,1,Friend,IPC 323 (Assault),Assault
-The victim reported being sexually assaulted by a Stranger in a park.,Pratapgarh,Station A,park,2025-03-24,17:41:06,Monday,Spring,Police,Male,57,Female,37,knife,car,3,Stranger,IPC 376 (Rape),Rape
+The victim reported being sexually assaulted by a Stranger in a park.,Pratapgarh,Station A,park,2025-03-24,17:41:06,Monday,Spring,Police,Male,57,Female,37,knife,car,3,Friend,IPC 376 (Rape),Rape
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Khairthal-Tijara,Station A,market,2025-02-17,03:10:50,Monday,Summer,Eyewitness,Male,14,Male,47,stick,scooter,1,Stranger,IPC 376 (Rape),Rape
 A gang of masked robbers looted a store at a school.,Kotputli-Behror,Station B,school,2024-07-18,00:28:53,Thursday,Summer,Relative,Other,33,Female,51,bare hands,bike,3,Neighbor,IPC 392 (Robbery),Robbery
 The victim was attacked and killed using a stick at a market.,Udaipur,Station C,market,2024-07-21,18:50:19,Sunday,Winter,Relative,Male,16,Female,52,stick,bike,1,Stranger,IPC 302 (Murder),Murder
@@ -261,7 +260,7 @@ Pickpocketing occurred in a crowded residential area.,Jaisalmer,Station C,reside
 An incident of rape was reported where the accused lured the victim to a residential area.,Jaisalmer,Station B,residential area,2024-08-25,15:24:25,Sunday,Summer,Eyewitness,Male,71,Female,30,stick,bike,3,Neighbor,IPC 376 (Rape),Rape
 The body of the victim was discovered at a market with signs of struggle.,Rajsamand,Station A,market,2024-12-08,00:23:13,Sunday,Winter,Eyewitness,Male,42,Male,63,stick,bike,5,Acquaintance,IPC 302 (Murder),Murder
 Police received a report of assault involving two individuals at a highway.,Salumbar,Station B,highway,2024-12-25,21:44:37,Wednesday,Monsoon,Relative,Other,72,Male,23,knife,scooter,2,Acquaintance,IPC 323 (Assault),Assault
-Eyewitnesses reported a fatal altercation involving a bare hands near the residential area.,Chittorgarh,Station A,residential area,2025-01-04,09:33:51,Saturday,Monsoon,Victim,Female,18,Other,59,bare hands,bike,4,Stranger,IPC 302 (Murder),Murder
+Eyewitnesses reported a fatal altercation involving a bare hands near the residential area.,Chittorgarh,Station A,residential area,2025-01-04,09:33:51,Saturday,Monsoon,Victim,Female,18,Other,59,bare hands,bike,4,Relative,IPC 302 (Murder),Murder
 The accused physically assaulted the victim using a gun at a school.,Jalore,Station C,school,2025-03-02,15:09:12,Sunday,Winter,Victim,Male,21,Male,37,gun,scooter,3,Stranger,IPC 323 (Assault),Assault
 The victim was attacked and killed using a bare hands at a bus stop.,Khairthal-Tijara,Station C,bus stop,2025-03-18,22:15:19,Tuesday,Winter,Relative,Other,42,Male,67,bare hands,car,4,Stranger,IPC 302 (Murder),Murder
 The victim was attacked and killed using a stick at a highway.,Sirohi,Station A,highway,2025-01-05,22:20:59,Sunday,Spring,Victim,Female,67,Male,41,stick,auto,4,Friend,IPC 302 (Murder),Murder
@@ -277,10 +276,10 @@ The accused physically assaulted the victim using a gun at a bus stop.,Pratapgar
 "A heated argument turned violent at the market, injuring one person.",Sikar,Station B,market,2024-06-03,20:58:10,Monday,Winter,Eyewitness,Male,10,Female,62,gun,auto,5,Relative,IPC 323 (Assault),Assault
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Sikar,Station C,bus stop,2024-12-12,17:01:05,Thursday,Summer,Relative,Female,54,Other,32,stick,scooter,1,Stranger,IPC 376 (Rape),Rape
 An incident of rape was reported where the accused lured the victim to a residential area.,Ajmer,Station C,residential area,2024-11-21,13:17:15,Thursday,Summer,Victim,Other,15,Female,50,bare hands,car,5,Stranger,IPC 376 (Rape),Rape
-The accused used a knife to fatally wound the victim at their residence.,Barmer,Station C,highway,2025-05-02,07:50:36,Friday,Monsoon,Police,Male,51,Other,47,knife,car,3,Stranger,IPC 302 (Murder),Murder
+The accused used a knife to fatally wound the victim at their residence.,Barmer,Station C,highway,2025-05-02,07:50:36,Friday,Monsoon,Police,Male,51,Other,47,knife,car,3,Friend,IPC 302 (Murder),Murder
 "A violent brawl broke out at a bus stop, leading to serious injuries.",Dausa,Station A,bus stop,2025-01-30,10:16:42,Thursday,Monsoon,Victim,Other,44,Male,18,gun,bike,2,Relative,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a bus stop.,Sawai Madhopur,Station C,bus stop,2024-10-26,04:57:15,Saturday,Summer,Police,Male,75,Female,54,bare hands,scooter,4,Friend,IPC 376 (Rape),Rape
-The victim was attacked and killed using a gun at a school.,Jodhpur,Station B,school,2024-07-18,16:41:38,Thursday,Summer,Victim,Female,64,Male,60,gun,auto,4,Neighbor,IPC 302 (Murder),Murder
+The victim was attacked and killed using a gun at a school.,Jodhpur,Station B,school,2024-07-18,16:41:38,Thursday,Summer,Victim,Female,64,Male,60,gun,auto,4,Friend,IPC 302 (Murder),Murder
 Police received a report of assault involving two individuals at a park.,Sikar,Station A,park,2025-05-28,17:44:43,Wednesday,Monsoon,Police,Other,80,Female,35,gun,car,1,Stranger,IPC 323 (Assault),Assault
 The accused used a gun to fatally wound the victim at their residence.,Bharatpur,Station A,market,2025-05-02,09:27:06,Friday,Spring,Victim,Male,69,Other,67,gun,scooter,5,Acquaintance,IPC 302 (Murder),Murder
 The accused forcibly entered the victim’s home and committed the crime.,Kotputli-Behror,Station B,highway,2024-10-03,11:39:46,Thursday,Spring,Police,Other,64,Other,64,bare hands,auto,1,Neighbor,IPC 376 (Rape),Rape
@@ -289,17 +288,17 @@ Police received a report of assault involving two individuals at a bus stop.,Kot
 "A violent brawl broke out at a residential area, leading to serious injuries.",Alwar,Station C,residential area,2024-10-27,03:58:43,Sunday,Spring,Victim,Female,24,Female,46,gun,scooter,3,Acquaintance,IPC 323 (Assault),Assault
 "A heated argument turned violent at the market, injuring one person.",Karauli,Station A,market,2025-03-27,23:30:08,Thursday,Summer,Victim,Male,78,Female,59,bare hands,scooter,2,Friend,IPC 323 (Assault),Assault
 Jewelry and cash were stolen from a park during daytime.,Nagaur,Station B,park,2024-08-08,18:08:03,Thursday,Summer,Victim,Male,24,Male,39,knife,scooter,5,Acquaintance,IPC 379 (Theft),Theft
-The victim was attacked and killed using a knife at a school.,Jodhpur,Station C,school,2024-07-08,14:05:18,Monday,Winter,Victim,Male,18,Male,25,knife,car,1,Friend,IPC 302 (Murder),Murder
+The victim was attacked and killed using a knife at a school.,Jodhpur,Station C,school,2024-07-08,14:05:18,Monday,Winter,Victim,Male,18,Male,25,knife,car,1,Acquaintance,IPC 302 (Murder),Murder
 The accused physically assaulted the victim using a gun at a residential area.,Jaisalmer,Station B,residential area,2024-12-24,16:59:21,Tuesday,Winter,Relative,Male,79,Female,38,gun,scooter,4,Stranger,IPC 323 (Assault),Assault
 The accused used a bare hands to fatally wound the victim at their residence.,Bikaner,Station B,school,2025-01-05,21:28:02,Sunday,Spring,Relative,Other,26,Female,60,bare hands,car,1,Friend,IPC 302 (Murder),Murder
-The victim was attacked and killed using a knife at a market.,Kota,Station A,market,2025-05-24,14:47:03,Saturday,Spring,Relative,Male,71,Female,63,knife,bike,3,Neighbor,IPC 302 (Murder),Murder
+The victim was attacked and killed using a knife at a market.,Kota,Station A,market,2025-05-24,14:47:03,Saturday,Spring,Relative,Male,71,Female,63,knife,bike,3,Friend,IPC 302 (Murder),Murder
 A theft was reported where items were stolen from a market.,Bhilwara,Station B,market,2024-09-03,09:55:53,Tuesday,Monsoon,Police,Female,41,Other,32,knife,bike,1,Stranger,IPC 379 (Theft),Theft
 The accused physically assaulted the victim using a stick at a school.,Sawai Madhopur,Station C,school,2025-02-15,20:01:44,Saturday,Spring,Police,Other,34,Female,44,stick,scooter,2,Neighbor,IPC 323 (Assault),Assault
 Robbers stormed a house and made away with cash and gold.,Jaisalmer,Station A,bus stop,2025-02-18,22:01:06,Tuesday,Monsoon,Victim,Female,36,Other,57,knife,auto,5,Acquaintance,IPC 392 (Robbery),Robbery
 "A heated argument turned violent at the market, injuring one person.",Rajsamand,Station C,market,2024-08-13,11:46:35,Tuesday,Spring,Police,Other,74,Female,46,stick,auto,4,Friend,IPC 323 (Assault),Assault
 A theft was reported where items were stolen from a residential area.,Banswara,Station A,residential area,2024-12-19,05:16:21,Thursday,Spring,Relative,Other,79,Female,52,stick,bike,1,Neighbor,IPC 379 (Theft),Theft
 The accused forcefully snatched the victim's belongings and fled on a car.,Sri Ganganagar,Station A,residential area,2025-05-23,19:43:39,Friday,Spring,Relative,Female,25,Female,32,bare hands,car,1,Relative,IPC 392 (Robbery),Robbery
-Eyewitnesses reported a fatal altercation involving a stick near the bus stop.,Pali,Station B,bus stop,2025-01-25,10:35:24,Saturday,Spring,Victim,Male,45,Male,56,stick,car,2,Acquaintance,IPC 302 (Murder),Murder
+Eyewitnesses reported a fatal altercation involving a stick near the bus stop.,Pali,Station B,bus stop,2025-01-25,10:35:24,Saturday,Spring,Victim,Male,45,Male,56,stick,car,2,Friend,IPC 302 (Murder),Murder
 "An armed robbery took place at a bus stop, threatening the occupants.",Dausa,Station A,bus stop,2025-05-08,20:45:18,Thursday,Winter,Victim,Other,10,Female,30,stick,car,4,Neighbor,IPC 392 (Robbery),Robbery
 A local resident was found murdered in a residential area under mysterious circumstances.,Udaipur,Station B,residential area,2024-08-24,06:17:33,Saturday,Summer,Relative,Other,55,Male,54,knife,auto,1,Stranger,IPC 302 (Murder),Murder
 The victim was robbed at gunpoint while returning home from work.,Bikaner,Station A,market,2025-03-19,13:33:23,Wednesday,Monsoon,Police,Other,67,Male,57,gun,car,4,Relative,IPC 392 (Robbery),Robbery
@@ -307,19 +306,19 @@ An incident of rape was reported where the accused lured the victim to a residen
 An incident of rape was reported where the accused lured the victim to a school.,Sawai Madhopur,Station B,school,2025-05-04,13:36:19,Sunday,Winter,Eyewitness,Other,74,Male,55,stick,auto,5,Friend,IPC 376 (Rape),Rape
 "A violent brawl broke out at a bus stop, leading to serious injuries.",Jhunjhunu,Station C,bus stop,2025-01-13,14:05:20,Monday,Monsoon,Police,Other,59,Male,45,stick,scooter,1,Neighbor,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a residential area.,Pali,Station B,residential area,2025-02-18,09:58:16,Tuesday,Spring,Victim,Other,16,Female,18,stick,auto,5,Neighbor,IPC 376 (Rape),Rape
-"A violent brawl broke out at a residential area, leading to serious injuries.",Bikaner,Station A,residential area,2024-06-03,23:50:43,Monday,Monsoon,Eyewitness,Male,62,Male,65,stick,scooter,5,Friend,IPC 323 (Assault),Assault
+"A violent brawl broke out at a residential area, leading to serious injuries.",Bikaner,Station A,residential area,2024-06-03,23:50:43,Monday,Monsoon,Eyewitness,Male,62,Male,65,stick,scooter,5,Relative,IPC 323 (Assault),Assault
 A theft was reported where items were stolen from a market.,Barmer,Station A,market,2025-05-26,00:37:50,Monday,Winter,Relative,Other,14,Other,35,gun,car,1,Acquaintance,IPC 379 (Theft),Theft
 The accused physically assaulted the victim using a knife at a school.,Dholpur,Station C,school,2024-10-26,18:43:55,Saturday,Monsoon,Eyewitness,Male,37,Male,27,knife,car,2,Relative,IPC 323 (Assault),Assault
 Eyewitnesses reported a fatal altercation involving a knife near the market.,Balotra,Station A,market,2024-06-05,13:34:18,Wednesday,Summer,Relative,Other,35,Male,37,knife,auto,1,Stranger,IPC 302 (Murder),Murder
 "A violent brawl broke out at a highway, leading to serious injuries.",Barmer,Station B,highway,2024-06-25,15:35:26,Tuesday,Spring,Eyewitness,Female,27,Other,49,bare hands,scooter,3,Relative,IPC 323 (Assault),Assault
-Pickpocketing occurred in a crowded market.,Churu,Station C,market,2025-03-16,05:57:08,Sunday,Winter,Relative,Female,46,Female,62,bare hands,bike,2,Neighbor,IPC 379 (Theft),Theft
+Pickpocketing occurred in a crowded market.,Churu,Station C,market,2025-03-16,05:57:08,Sunday,Winter,Relative,Female,46,Female,62,bare hands,bike,2,Friend,IPC 379 (Theft),Theft
 Eyewitnesses reported a fatal altercation involving a stick near the highway.,Jaipur,Station C,highway,2025-02-03,02:13:59,Monday,Summer,Eyewitness,Male,77,Other,63,stick,scooter,4,Acquaintance,IPC 302 (Murder),Murder
 The victim was robbed at gunpoint while returning home from work.,Barmer,Station B,school,2024-09-13,18:11:18,Friday,Summer,Eyewitness,Other,12,Other,61,knife,scooter,5,Acquaintance,IPC 392 (Robbery),Robbery
 Unknown suspects broke into a highway and stole valuables.,Didwana-Kuchaman,Station C,highway,2024-05-30,15:14:41,Thursday,Spring,Victim,Other,23,Other,15,bare hands,auto,2,Relative,IPC 379 (Theft),Theft
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Bundi,Station C,bus stop,2024-08-25,08:23:50,Sunday,Winter,Eyewitness,Female,76,Female,30,bare hands,auto,3,Friend,IPC 376 (Rape),Rape
 "An armed robbery took place at a bus stop, threatening the occupants.",Jodhpur,Station C,bus stop,2024-11-10,05:43:56,Sunday,Winter,Relative,Male,68,Female,35,bare hands,auto,3,Neighbor,IPC 392 (Robbery),Robbery
-The accused physically assaulted the victim using a gun at a highway.,Kotputli-Behror,Station A,highway,2024-11-03,03:15:37,Sunday,Monsoon,Relative,Female,13,Other,31,gun,car,2,Neighbor,IPC 323 (Assault),Assault
-The accused forcibly entered the victim’s home and committed the crime.,Hanumangarh,Station C,residential area,2025-03-31,13:01:16,Monday,Spring,Victim,Female,36,Other,30,stick,auto,4,Acquaintance,IPC 376 (Rape),Rape
+The accused physically assaulted the victim using a gun at a highway.,Kotputli-Behror,Station A,highway,2024-11-03,03:15:37,Sunday,Monsoon,Relative,Female,13,Other,31,gun,car,2,Acquaintance,IPC 323 (Assault),Assault
+The accused forcibly entered the victim’s home and committed the crime.,Hanumangarh,Station C,residential area,2025-03-31,13:01:16,Monday,Spring,Victim,Female,36,Other,30,stick,auto,4,Neighbor,IPC 376 (Rape),Rape
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Pali,Station A,bus stop,2024-09-13,06:40:39,Friday,Spring,Eyewitness,Other,54,Male,35,stick,car,4,Stranger,IPC 376 (Rape),Rape
 The victim was attacked and killed using a bare hands at a bus stop.,Nagaur,Station A,bus stop,2025-02-01,16:50:14,Saturday,Monsoon,Police,Male,22,Male,21,bare hands,scooter,4,Stranger,IPC 302 (Murder),Murder
 "An armed robbery took place at a market, threatening the occupants.",Pratapgarh,Station A,market,2024-09-09,01:51:15,Monday,Winter,Police,Male,61,Other,56,stick,scooter,2,Friend,IPC 392 (Robbery),Robbery
@@ -327,7 +326,7 @@ The victim was attacked from behind with a bare hands at a school.,Karauli,Stati
 A theft was reported where items were stolen from a school.,Jalore,Station C,school,2024-06-24,06:05:07,Monday,Spring,Police,Other,74,Female,48,bare hands,bike,3,Acquaintance,IPC 379 (Theft),Theft
 A rape case was registered involving a Acquaintance in an isolated bus stop.,Baran,Station C,bus stop,2024-10-10,19:30:07,Thursday,Summer,Victim,Other,65,Other,67,knife,car,4,Acquaintance,IPC 376 (Rape),Rape
 "An armed robbery took place at a highway, threatening the occupants.",Bharatpur,Station B,highway,2024-08-07,04:54:16,Wednesday,Summer,Police,Female,31,Male,18,stick,car,3,Acquaintance,IPC 392 (Robbery),Robbery
-A local resident was found murdered in a highway under mysterious circumstances.,Nagaur,Station C,highway,2025-03-05,09:54:46,Wednesday,Monsoon,Police,Male,16,Other,51,knife,auto,4,Friend,IPC 302 (Murder),Murder
+A local resident was found murdered in a highway under mysterious circumstances.,Nagaur,Station C,highway,2025-03-05,09:54:46,Wednesday,Monsoon,Police,Male,16,Other,51,knife,auto,4,Stranger,IPC 302 (Murder),Murder
 The body of the victim was discovered at a market with signs of struggle.,Bikaner,Station A,market,2024-09-05,20:35:43,Thursday,Winter,Victim,Other,42,Male,19,knife,auto,5,Acquaintance,IPC 302 (Murder),Murder
 Eyewitnesses reported a fatal altercation involving a gun near the bus stop.,Pali,Station C,bus stop,2024-10-10,13:51:55,Thursday,Summer,Eyewitness,Female,29,Male,42,gun,scooter,2,Acquaintance,IPC 302 (Murder),Murder
 "A violent brawl broke out at a highway, leading to serious injuries.",Dausa,Station B,highway,2025-02-22,18:37:25,Saturday,Winter,Victim,Male,36,Other,23,knife,bike,1,Relative,IPC 323 (Assault),Assault
@@ -346,7 +345,7 @@ The accused used a bare hands to fatally wound the victim at their residence.,Ch
 The accused used a knife to fatally wound the victim at their residence.,Sirohi,Station A,bus stop,2024-09-29,22:52:15,Sunday,Monsoon,Victim,Female,80,Female,18,knife,scooter,2,Stranger,IPC 302 (Murder),Murder
 The accused physically assaulted the victim using a bare hands at a residential area.,Ajmer,Station C,residential area,2025-04-26,22:54:34,Saturday,Monsoon,Victim,Other,19,Other,62,bare hands,car,2,Acquaintance,IPC 323 (Assault),Assault
 The accused physically assaulted the victim using a bare hands at a school.,Alwar,Station C,school,2024-11-05,04:03:11,Tuesday,Winter,Police,Female,53,Male,37,bare hands,scooter,4,Relative,IPC 323 (Assault),Assault
-The victim reported being sexually assaulted by a Relative in a bus stop.,Dungarpur,Station C,bus stop,2025-04-16,15:16:12,Wednesday,Spring,Police,Male,48,Other,23,stick,car,1,Acquaintance,IPC 376 (Rape),Rape
+The victim reported being sexually assaulted by a Relative in a bus stop.,Dungarpur,Station C,bus stop,2025-04-16,15:16:12,Wednesday,Spring,Police,Male,48,Other,23,stick,car,1,Neighbor,IPC 376 (Rape),Rape
 The victim was attacked and killed using a knife at a park.,Baran,Station C,park,2025-01-20,12:19:06,Monday,Winter,Eyewitness,Other,38,Female,55,knife,bike,4,Friend,IPC 302 (Murder),Murder
 The accused forcefully snatched the victim's belongings and fled on a auto.,Dungarpur,Station C,park,2024-08-04,07:19:03,Sunday,Summer,Police,Male,27,Other,24,knife,auto,3,Acquaintance,IPC 392 (Robbery),Robbery
 The body of the victim was discovered at a park with signs of struggle.,Bharatpur,Station C,park,2024-07-13,11:11:36,Saturday,Summer,Eyewitness,Other,44,Other,25,knife,car,5,Stranger,IPC 302 (Murder),Murder
@@ -382,7 +381,7 @@ The accused forcefully snatched the victim's belongings and fled on a scooter.,T
 The victim was attacked and killed using a stick at a residential area.,Bundi,Station C,residential area,2024-12-15,00:21:08,Sunday,Spring,Relative,Female,22,Female,30,stick,car,5,Stranger,IPC 302 (Murder),Murder
 The accused forcefully snatched the victim's belongings and fled on a car.,Udaipur,Station B,bus stop,2024-06-13,07:40:34,Thursday,Winter,Relative,Male,70,Male,17,stick,car,1,Relative,IPC 392 (Robbery),Robbery
 Robbers stormed a house and made away with cash and gold.,Jhunjhunu,Station C,school,2024-07-05,10:46:32,Friday,Spring,Victim,Male,44,Male,70,gun,scooter,4,Neighbor,IPC 392 (Robbery),Robbery
-"A heated argument turned violent at the school, injuring one person.",Khairthal-Tijara,Station C,school,2025-01-28,13:23:32,Tuesday,Monsoon,Relative,Male,35,Female,27,gun,auto,4,Acquaintance,IPC 323 (Assault),Assault
+"A heated argument turned violent at the school, injuring one person.",Khairthal-Tijara,Station C,school,2025-01-28,13:23:32,Tuesday,Monsoon,Relative,Male,35,Female,27,gun,auto,4,Neighbor,IPC 323 (Assault),Assault
 Robbers stormed a house and made away with cash and gold.,Jalore,Station C,park,2024-07-21,03:12:44,Sunday,Monsoon,Victim,Other,19,Other,43,stick,auto,5,Neighbor,IPC 392 (Robbery),Robbery
 The victim’s vehicle was broken into and items were stolen.,Jaipur,Station B,market,2024-09-01,07:12:43,Sunday,Summer,Victim,Other,31,Female,19,bare hands,scooter,1,Relative,IPC 379 (Theft),Theft
 The accused used a stick to fatally wound the victim at their residence.,Salumbar,Station A,school,2025-01-31,05:21:48,Friday,Summer,Victim,Female,45,Male,17,stick,auto,3,Relative,IPC 302 (Murder),Murder
@@ -411,7 +410,7 @@ The victim was robbed at gunpoint while returning home from work.,Bikaner,Statio
 The victim was attacked from behind with a gun at a park.,Alwar,Station A,park,2024-08-22,15:49:54,Thursday,Summer,Relative,Female,43,Other,40,gun,car,1,Neighbor,IPC 323 (Assault),Assault
 The accused physically assaulted the victim using a stick at a residential area.,Sikar,Station C,residential area,2024-11-19,00:38:49,Tuesday,Summer,Victim,Other,62,Other,44,stick,bike,5,Stranger,IPC 323 (Assault),Assault
 Robbers stormed a house and made away with cash and gold.,Bharatpur,Station A,market,2024-10-03,02:18:26,Thursday,Spring,Relative,Male,10,Female,63,bare hands,bike,4,Stranger,IPC 392 (Robbery),Robbery
-Pickpocketing occurred in a crowded highway.,Banswara,Station A,highway,2025-03-16,01:32:44,Sunday,Summer,Victim,Female,19,Other,59,gun,bike,4,Acquaintance,IPC 379 (Theft),Theft
+Pickpocketing occurred in a crowded highway.,Banswara,Station A,highway,2025-03-16,01:32:44,Sunday,Summer,Victim,Female,19,Other,59,gun,bike,4,Neighbor,IPC 379 (Theft),Theft
 Robbers stormed a house and made away with cash and gold.,Beawar,Station C,highway,2024-10-05,03:41:02,Saturday,Monsoon,Eyewitness,Other,48,Male,52,gun,bike,1,Stranger,IPC 392 (Robbery),Robbery
 A gang of masked robbers looted a store at a highway.,Karauli,Station C,highway,2025-03-23,15:50:34,Sunday,Monsoon,Police,Male,37,Other,53,bare hands,bike,5,Neighbor,IPC 392 (Robbery),Robbery
 Eyewitnesses reported a fatal altercation involving a gun near the residential area.,Jalore,Station A,residential area,2025-04-27,15:27:06,Sunday,Spring,Victim,Female,36,Female,34,gun,auto,5,Neighbor,IPC 302 (Murder),Murder
@@ -439,7 +438,7 @@ The accused physically assaulted the victim using a gun at a residential area.,B
 Pickpocketing occurred in a crowded school.,Jaisalmer,Station C,school,2024-10-29,07:27:59,Tuesday,Spring,Victim,Male,64,Other,15,stick,car,5,Acquaintance,IPC 379 (Theft),Theft
 The accused forcefully snatched the victim's belongings and fled on a auto.,Sri Ganganagar,Station B,bus stop,2024-08-06,17:45:22,Tuesday,Monsoon,Relative,Female,39,Other,69,bare hands,auto,1,Friend,IPC 392 (Robbery),Robbery
 The victim was attacked from behind with a stick at a bus stop.,Balotra,Station B,bus stop,2025-05-12,13:39:03,Monday,Summer,Eyewitness,Female,61,Female,43,stick,scooter,2,Acquaintance,IPC 323 (Assault),Assault
-The body of the victim was discovered at a bus stop with signs of struggle.,Jodhpur,Station A,bus stop,2024-05-30,09:57:18,Thursday,Monsoon,Victim,Other,43,Female,49,knife,car,5,Friend,IPC 302 (Murder),Murder
+The body of the victim was discovered at a bus stop with signs of struggle.,Jodhpur,Station A,bus stop,2024-05-30,09:57:18,Thursday,Monsoon,Victim,Other,43,Female,49,knife,car,5,Stranger,IPC 302 (Murder),Murder
 Police received a report of assault involving two individuals at a park.,Churu,Station C,park,2024-06-20,05:17:23,Thursday,Monsoon,Victim,Male,28,Other,67,stick,auto,2,Acquaintance,IPC 323 (Assault),Assault
 The victim’s vehicle was broken into and items were stolen.,Didwana-Kuchaman,Station B,school,2024-09-22,12:34:38,Sunday,Monsoon,Eyewitness,Female,46,Male,22,gun,auto,1,Friend,IPC 379 (Theft),Theft
 "A violent brawl broke out at a park, leading to serious injuries.",Sawai Madhopur,Station A,park,2025-04-21,11:03:39,Monday,Winter,Victim,Male,63,Other,30,stick,bike,3,Neighbor,IPC 323 (Assault),Assault
@@ -451,7 +450,7 @@ A rape case was registered involving a Neighbor in an isolated school.,Sawai Mad
 The accused forcefully snatched the victim's belongings and fled on a scooter.,Bikaner,Station A,highway,2025-01-28,09:33:03,Tuesday,Winter,Victim,Female,50,Female,64,knife,scooter,5,Friend,IPC 392 (Robbery),Robbery
 Police received a report of assault involving two individuals at a market.,Udaipur,Station A,market,2025-01-19,04:55:23,Sunday,Summer,Relative,Female,67,Other,37,knife,car,5,Acquaintance,IPC 323 (Assault),Assault
 Pickpocketing occurred in a crowded market.,Kotputli-Behror,Station C,market,2025-01-27,14:16:05,Monday,Monsoon,Victim,Male,67,Other,49,gun,auto,3,Neighbor,IPC 379 (Theft),Theft
-"A heated argument turned violent at the residential area, injuring one person.",Karauli,Station B,residential area,2024-10-27,21:12:04,Sunday,Summer,Victim,Female,66,Other,55,knife,car,5,Acquaintance,IPC 323 (Assault),Assault
+"A heated argument turned violent at the residential area, injuring one person.",Karauli,Station B,residential area,2024-10-27,21:12:04,Sunday,Summer,Victim,Female,66,Other,55,knife,car,5,Stranger,IPC 323 (Assault),Assault
 The victim was attacked from behind with a bare hands at a park.,Balotra,Station C,park,2025-01-30,05:04:45,Thursday,Spring,Relative,Female,51,Male,19,bare hands,bike,4,Neighbor,IPC 323 (Assault),Assault
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Balotra,Station A,school,2025-04-17,14:38:53,Thursday,Monsoon,Relative,Female,71,Female,20,stick,bike,5,Neighbor,IPC 376 (Rape),Rape
 The victim’s vehicle was broken into and items were stolen.,Sri Ganganagar,Station B,park,2025-05-29,21:39:17,Thursday,Summer,Police,Female,54,Other,36,stick,scooter,4,Friend,IPC 379 (Theft),Theft
@@ -493,7 +492,7 @@ The accused forcibly entered the victim’s home and committed the crime.,Didwan
 The victim reported being sexually assaulted by a Acquaintance in a market.,Dausa,Station B,market,2025-03-24,03:18:16,Monday,Summer,Eyewitness,Female,20,Other,57,bare hands,scooter,3,Acquaintance,IPC 376 (Rape),Rape
 Unknown suspects broke into a bus stop and stole valuables.,Dausa,Station B,bus stop,2025-03-15,19:57:10,Saturday,Winter,Police,Other,71,Female,29,stick,scooter,2,Friend,IPC 379 (Theft),Theft
 "A heated argument turned violent at the residential area, injuring one person.",Phalodi,Station C,residential area,2025-03-16,15:41:26,Sunday,Spring,Victim,Other,16,Female,56,gun,auto,3,Stranger,IPC 323 (Assault),Assault
-The victim was robbed at gunpoint while returning home from work.,Dungarpur,Station A,residential area,2025-03-30,15:00:36,Sunday,Summer,Relative,Other,30,Female,65,bare hands,bike,2,Neighbor,IPC 392 (Robbery),Robbery
+The victim was robbed at gunpoint while returning home from work.,Dungarpur,Station A,residential area,2025-03-30,15:00:36,Sunday,Summer,Relative,Other,30,Female,65,bare hands,bike,2,Stranger,IPC 392 (Robbery),Robbery
 The victim’s vehicle was broken into and items were stolen.,Kotputli-Behror,Station C,highway,2024-06-07,21:45:25,Friday,Monsoon,Police,Female,45,Female,46,bare hands,auto,3,Friend,IPC 379 (Theft),Theft
 The victim was attacked and killed using a stick at a park.,Barmer,Station C,park,2024-05-30,18:44:20,Thursday,Spring,Victim,Male,32,Female,65,stick,car,3,Relative,IPC 302 (Murder),Murder
 The victim was robbed at gunpoint while returning home from work.,Barmer,Station A,park,2025-04-24,05:24:01,Thursday,Summer,Police,Male,30,Female,26,gun,bike,1,Acquaintance,IPC 392 (Robbery),Robbery
@@ -542,7 +541,7 @@ An incident of rape was reported where the accused lured the victim to a park.,J
 An incident of rape was reported where the accused lured the victim to a highway.,Nagaur,Station A,highway,2024-09-27,16:00:09,Friday,Monsoon,Police,Other,46,Male,51,knife,auto,4,Stranger,IPC 376 (Rape),Rape
 Unknown suspects broke into a bus stop and stole valuables.,Kota,Station C,bus stop,2024-09-25,20:36:30,Wednesday,Monsoon,Relative,Other,65,Other,48,stick,bike,4,Friend,IPC 379 (Theft),Theft
 Jewelry and cash were stolen from a market during daytime.,Balotra,Station A,market,2025-03-05,14:37:59,Wednesday,Spring,Police,Other,53,Male,59,gun,scooter,3,Relative,IPC 379 (Theft),Theft
-Pickpocketing occurred in a crowded park.,Barmer,Station C,park,2024-12-02,12:13:05,Monday,Monsoon,Victim,Female,50,Female,28,gun,bike,4,Friend,IPC 379 (Theft),Theft
+Pickpocketing occurred in a crowded park.,Barmer,Station C,park,2024-12-02,12:13:05,Monday,Monsoon,Victim,Female,50,Female,28,gun,bike,4,Acquaintance,IPC 379 (Theft),Theft
 Pickpocketing occurred in a crowded residential area.,Bhilwara,Station B,residential area,2025-03-14,11:32:44,Friday,Winter,Police,Male,39,Other,59,stick,auto,1,Stranger,IPC 379 (Theft),Theft
 The accused physically assaulted the victim using a knife at a residential area.,Nagaur,Station A,residential area,2024-12-03,20:52:31,Tuesday,Spring,Eyewitness,Male,44,Female,64,knife,auto,5,Friend,IPC 323 (Assault),Assault
 Jewelry and cash were stolen from a school during daytime.,Chittorgarh,Station C,school,2024-09-01,12:23:09,Sunday,Monsoon,Eyewitness,Other,70,Female,51,bare hands,bike,5,Neighbor,IPC 379 (Theft),Theft
@@ -570,7 +569,7 @@ An incident of rape was reported where the accused lured the victim to a market.
 The victim was attacked and killed using a knife at a residential area.,Jodhpur,Station C,residential area,2024-07-16,03:17:31,Tuesday,Summer,Relative,Other,72,Female,32,knife,auto,4,Neighbor,IPC 302 (Murder),Murder
 Robbers stormed a house and made away with cash and gold.,Jaipur,Station C,park,2024-08-04,02:26:04,Sunday,Winter,Victim,Female,67,Female,52,knife,scooter,4,Relative,IPC 392 (Robbery),Robbery
 Robbers stormed a house and made away with cash and gold.,Beawar,Station B,residential area,2024-11-25,08:37:15,Monday,Summer,Victim,Other,47,Other,29,stick,scooter,1,Friend,IPC 392 (Robbery),Robbery
-A theft was reported where items were stolen from a highway.,Salumbar,Station A,highway,2024-11-24,07:36:12,Sunday,Monsoon,Victim,Female,48,Male,20,gun,auto,2,Stranger,IPC 379 (Theft),Theft
+A theft was reported where items were stolen from a highway.,Salumbar,Station A,highway,2024-11-24,07:36:12,Sunday,Monsoon,Victim,Female,48,Male,20,gun,auto,2,Friend,IPC 379 (Theft),Theft
 Police received a report of assault involving two individuals at a highway.,Phalodi,Station C,highway,2025-02-11,21:13:41,Tuesday,Summer,Relative,Male,10,Other,18,knife,scooter,3,Acquaintance,IPC 323 (Assault),Assault
 "An armed robbery took place at a bus stop, threatening the occupants.",Bikaner,Station C,bus stop,2025-04-26,16:50:18,Saturday,Summer,Relative,Male,25,Male,44,bare hands,bike,1,Neighbor,IPC 392 (Robbery),Robbery
 Pickpocketing occurred in a crowded residential area.,Balotra,Station C,residential area,2025-04-01,09:41:41,Tuesday,Spring,Relative,Other,73,Female,69,bare hands,scooter,5,Stranger,IPC 379 (Theft),Theft
@@ -601,10 +600,10 @@ Eyewitnesses reported a fatal altercation involving a gun near the school.,Kota,
 The victim was attacked and killed using a gun at a residential area.,Bharatpur,Station C,residential area,2025-04-03,05:22:52,Thursday,Summer,Victim,Female,46,Female,45,gun,scooter,1,Friend,IPC 302 (Murder),Murder
 "A heated argument turned violent at the highway, injuring one person.",Tonk,Station B,highway,2024-07-23,04:15:33,Tuesday,Winter,Police,Female,47,Male,55,gun,scooter,1,Friend,IPC 323 (Assault),Assault
 Eyewitnesses reported a fatal altercation involving a bare hands near the market.,Phalodi,Station C,market,2024-11-26,00:22:29,Tuesday,Spring,Victim,Female,76,Female,39,bare hands,scooter,4,Relative,IPC 302 (Murder),Murder
-Robbers stormed a house and made away with cash and gold.,Kota,Station C,highway,2024-10-28,04:29:01,Monday,Spring,Police,Other,40,Male,60,knife,car,2,Friend,IPC 392 (Robbery),Robbery
+Robbers stormed a house and made away with cash and gold.,Kota,Station C,highway,2024-10-28,04:29:01,Monday,Spring,Police,Other,40,Male,60,knife,car,2,Neighbor,IPC 392 (Robbery),Robbery
 The victim was attacked and killed using a gun at a highway.,Jaisalmer,Station C,highway,2024-11-15,18:28:14,Friday,Spring,Police,Female,69,Other,43,gun,auto,1,Neighbor,IPC 302 (Murder),Murder
 Unknown suspects broke into a school and stole valuables.,Sirohi,Station A,school,2024-09-18,01:02:46,Wednesday,Spring,Victim,Male,19,Male,26,stick,auto,4,Friend,IPC 379 (Theft),Theft
-"An armed robbery took place at a highway, threatening the occupants.",Sirohi,Station A,highway,2024-12-04,07:12:18,Wednesday,Spring,Eyewitness,Other,78,Female,37,stick,scooter,3,Friend,IPC 392 (Robbery),Robbery
+"An armed robbery took place at a highway, threatening the occupants.",Sirohi,Station A,highway,2024-12-04,07:12:18,Wednesday,Spring,Eyewitness,Other,78,Female,37,stick,scooter,3,Relative,IPC 392 (Robbery),Robbery
 Pickpocketing occurred in a crowded market.,Didwana-Kuchaman,Station C,market,2024-11-01,02:04:29,Friday,Spring,Police,Female,13,Male,47,knife,scooter,2,Stranger,IPC 379 (Theft),Theft
 A rape case was registered involving a Acquaintance in an isolated residential area.,Beawar,Station A,residential area,2025-03-19,04:21:21,Wednesday,Summer,Relative,Male,80,Female,52,stick,scooter,3,Acquaintance,IPC 376 (Rape),Rape
 "A heated argument turned violent at the bus stop, injuring one person.",Jaisalmer,Station C,bus stop,2025-05-07,05:58:10,Wednesday,Spring,Victim,Female,57,Male,67,knife,auto,1,Neighbor,IPC 323 (Assault),Assault
@@ -652,7 +651,7 @@ The accused physically assaulted the victim using a gun at a park.,Jhalawar,Stat
 Unknown suspects broke into a school and stole valuables.,Chittorgarh,Station C,school,2025-02-27,23:58:49,Thursday,Monsoon,Eyewitness,Male,42,Male,40,stick,auto,4,Friend,IPC 379 (Theft),Theft
 The victim was attacked and killed using a bare hands at a residential area.,Phalodi,Station B,residential area,2025-05-10,06:10:25,Saturday,Monsoon,Victim,Other,24,Other,39,bare hands,car,5,Acquaintance,IPC 302 (Murder),Murder
 "A violent brawl broke out at a highway, leading to serious injuries.",Pali,Station C,highway,2024-07-20,17:37:10,Saturday,Winter,Victim,Other,72,Other,21,gun,car,5,Stranger,IPC 323 (Assault),Assault
-The victim reported being sexually assaulted by a Stranger in a park.,Sikar,Station A,park,2024-10-07,20:28:46,Monday,Monsoon,Victim,Other,80,Female,60,gun,scooter,2,Stranger,IPC 376 (Rape),Rape
+The victim reported being sexually assaulted by a Stranger in a park.,Sikar,Station A,park,2024-10-07,20:28:46,Monday,Monsoon,Victim,Other,80,Female,60,gun,scooter,2,Friend,IPC 376 (Rape),Rape
 A gang of masked robbers looted a store at a school.,Baran,Station B,school,2025-03-30,05:31:11,Sunday,Winter,Victim,Female,27,Other,37,gun,bike,5,Stranger,IPC 392 (Robbery),Robbery
 The victim’s vehicle was broken into and items were stolen.,Salumbar,Station B,school,2025-03-04,18:13:04,Tuesday,Spring,Victim,Other,49,Male,19,knife,bike,3,Acquaintance,IPC 379 (Theft),Theft
 The victim was attacked and killed using a stick at a school.,Jhunjhunu,Station B,school,2025-02-24,02:43:30,Monday,Spring,Eyewitness,Male,48,Female,64,stick,car,5,Stranger,IPC 302 (Murder),Murder
@@ -678,8 +677,8 @@ Police received a report of assault involving two individuals at a residential a
 The accused physically assaulted the victim using a gun at a highway.,Kotputli-Behror,Station C,highway,2024-07-23,21:54:55,Tuesday,Winter,Victim,Female,29,Female,59,gun,bike,1,Friend,IPC 323 (Assault),Assault
 The accused physically assaulted the victim using a gun at a residential area.,Kota,Station B,residential area,2025-03-01,00:42:31,Saturday,Monsoon,Eyewitness,Male,37,Male,38,gun,car,3,Relative,IPC 323 (Assault),Assault
 The accused forcibly entered the victim’s home and committed the crime.,Dholpur,Station B,school,2025-02-08,20:19:51,Saturday,Monsoon,Police,Other,47,Female,45,gun,bike,4,Acquaintance,IPC 376 (Rape),Rape
-Jewelry and cash were stolen from a residential area during daytime.,Kotputli-Behror,Station C,residential area,2024-11-21,21:56:38,Thursday,Monsoon,Eyewitness,Female,41,Other,17,knife,bike,3,Stranger,IPC 379 (Theft),Theft
-The body of the victim was discovered at a residential area with signs of struggle.,Jaipur,Station A,residential area,2024-10-17,03:30:59,Thursday,Winter,Victim,Female,12,Female,37,knife,scooter,4,Relative,IPC 302 (Murder),Murder
+Jewelry and cash were stolen from a residential area during daytime.,Kotputli-Behror,Station C,residential area,2024-11-21,21:56:38,Thursday,Monsoon,Eyewitness,Female,41,Other,17,knife,bike,3,Acquaintance,IPC 379 (Theft),Theft
+The body of the victim was discovered at a residential area with signs of struggle.,Jaipur,Station A,residential area,2024-10-17,03:30:59,Thursday,Winter,Victim,Female,12,Female,37,knife,scooter,4,Neighbor,IPC 302 (Murder),Murder
 The accused forcibly entered the victim’s home and committed the crime.,Churu,Station C,market,2024-07-19,18:45:16,Friday,Monsoon,Relative,Male,74,Male,60,gun,car,5,Friend,IPC 376 (Rape),Rape
 The accused forcibly entered the victim’s home and committed the crime.,Dholpur,Station B,park,2025-05-14,00:46:19,Wednesday,Summer,Relative,Other,56,Other,25,gun,scooter,4,Relative,IPC 376 (Rape),Rape
 Unknown suspects broke into a school and stole valuables.,Barmer,Station B,school,2025-03-14,12:56:29,Friday,Monsoon,Eyewitness,Other,69,Female,64,bare hands,bike,1,Stranger,IPC 379 (Theft),Theft
@@ -687,12 +686,12 @@ Police received a report of assault involving two individuals at a market.,Prata
 The victim was robbed at gunpoint while returning home from work.,Beawar,Station A,market,2025-02-03,13:54:05,Monday,Monsoon,Relative,Male,25,Male,62,gun,car,5,Stranger,IPC 392 (Robbery),Robbery
 Police received a report of assault involving two individuals at a park.,Jaipur,Station C,park,2024-06-23,11:22:53,Sunday,Spring,Eyewitness,Male,71,Female,52,bare hands,auto,2,Relative,IPC 323 (Assault),Assault
 A theft was reported where items were stolen from a park.,Ajmer,Station A,park,2024-12-26,08:25:18,Thursday,Monsoon,Victim,Female,16,Male,23,stick,car,5,Acquaintance,IPC 379 (Theft),Theft
-Police received a report of assault involving two individuals at a park.,Pratapgarh,Station B,park,2024-08-23,21:46:42,Friday,Monsoon,Eyewitness,Male,47,Male,49,bare hands,auto,3,Neighbor,IPC 323 (Assault),Assault
+Police received a report of assault involving two individuals at a park.,Pratapgarh,Station B,park,2024-08-23,21:46:42,Friday,Monsoon,Eyewitness,Male,47,Male,49,bare hands,auto,3,Stranger,IPC 323 (Assault),Assault
 The victim reported being sexually assaulted by a Stranger in a park.,Churu,Station C,park,2025-04-20,14:22:56,Sunday,Summer,Victim,Other,20,Female,25,gun,auto,1,Stranger,IPC 376 (Rape),Rape
 "A violent brawl broke out at a highway, leading to serious injuries.",Didwana-Kuchaman,Station B,highway,2025-02-26,11:24:54,Wednesday,Spring,Relative,Female,65,Female,26,gun,car,4,Friend,IPC 323 (Assault),Assault
 The accused forcefully snatched the victim's belongings and fled on a scooter.,Rajsamand,Station A,residential area,2024-07-21,07:44:21,Sunday,Summer,Police,Other,22,Male,40,bare hands,scooter,2,Relative,IPC 392 (Robbery),Robbery
 A rape case was registered involving a Friend in an isolated residential area.,Sikar,Station C,residential area,2024-09-28,05:53:53,Saturday,Winter,Relative,Female,48,Female,61,stick,scooter,5,Friend,IPC 376 (Rape),Rape
-The accused forcibly entered the victim’s home and committed the crime.,Hanumangarh,Station C,residential area,2024-07-26,22:44:11,Friday,Winter,Eyewitness,Female,18,Male,28,knife,scooter,5,Friend,IPC 376 (Rape),Rape
+The accused forcibly entered the victim’s home and committed the crime.,Hanumangarh,Station C,residential area,2024-07-26,22:44:11,Friday,Winter,Eyewitness,Female,18,Male,28,knife,scooter,5,Acquaintance,IPC 376 (Rape),Rape
 Robbers stormed a house and made away with cash and gold.,Baran,Station C,bus stop,2025-04-21,06:04:18,Monday,Winter,Victim,Male,36,Male,22,stick,auto,1,Relative,IPC 392 (Robbery),Robbery
 The accused forcefully snatched the victim's belongings and fled on a auto.,Deeg,Station C,market,2025-03-12,22:14:23,Wednesday,Monsoon,Eyewitness,Female,72,Other,19,gun,auto,1,Neighbor,IPC 392 (Robbery),Robbery
 A rape case was registered involving a Friend in an isolated residential area.,Salumbar,Station C,residential area,2025-02-24,19:47:14,Monday,Spring,Victim,Other,38,Male,34,bare hands,bike,3,Friend,IPC 376 (Rape),Rape
@@ -737,11 +736,11 @@ The victim was abducted and raped in a moving vehicle by unknown individuals.,Du
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Pali,Station C,highway,2025-05-04,16:02:52,Sunday,Monsoon,Relative,Other,20,Female,27,gun,car,3,Neighbor,IPC 376 (Rape),Rape
 Police received a report of assault involving two individuals at a school.,Dungarpur,Station C,school,2024-09-06,17:25:38,Friday,Monsoon,Victim,Male,44,Male,66,stick,scooter,4,Friend,IPC 323 (Assault),Assault
 A theft was reported where items were stolen from a market.,Tonk,Station B,market,2025-03-12,13:09:25,Wednesday,Spring,Victim,Male,54,Female,32,gun,car,3,Acquaintance,IPC 379 (Theft),Theft
-A local resident was found murdered in a market under mysterious circumstances.,Ajmer,Station A,market,2024-06-28,17:35:39,Friday,Monsoon,Eyewitness,Female,48,Other,29,stick,bike,4,Friend,IPC 302 (Murder),Murder
+A local resident was found murdered in a market under mysterious circumstances.,Ajmer,Station A,market,2024-06-28,17:35:39,Friday,Monsoon,Eyewitness,Female,48,Other,29,stick,bike,4,Stranger,IPC 302 (Murder),Murder
 The accused used a gun to fatally wound the victim at their residence.,Jaisalmer,Station B,bus stop,2025-03-10,00:59:57,Monday,Summer,Eyewitness,Female,36,Other,69,gun,scooter,5,Relative,IPC 302 (Murder),Murder
 "An armed robbery took place at a bus stop, threatening the occupants.",Khairthal-Tijara,Station C,bus stop,2024-09-18,02:02:56,Wednesday,Summer,Victim,Other,39,Male,66,stick,bike,1,Acquaintance,IPC 392 (Robbery),Robbery
-The body of the victim was discovered at a school with signs of struggle.,Phalodi,Station A,school,2024-07-29,11:47:49,Monday,Monsoon,Police,Male,73,Other,50,knife,scooter,1,Friend,IPC 302 (Murder),Murder
-The victim reported being sexually assaulted by a Acquaintance in a park.,Karauli,Station B,park,2025-02-05,07:37:40,Wednesday,Monsoon,Eyewitness,Other,51,Male,49,knife,auto,3,Friend,IPC 376 (Rape),Rape
+The body of the victim was discovered at a school with signs of struggle.,Phalodi,Station A,school,2024-07-29,11:47:49,Monday,Monsoon,Police,Male,73,Other,50,knife,scooter,1,Neighbor,IPC 302 (Murder),Murder
+The victim reported being sexually assaulted by a Acquaintance in a park.,Karauli,Station B,park,2025-02-05,07:37:40,Wednesday,Monsoon,Eyewitness,Other,51,Male,49,knife,auto,3,Stranger,IPC 376 (Rape),Rape
 Eyewitnesses reported a fatal altercation involving a knife near the park.,Pali,Station A,park,2024-10-27,11:45:33,Sunday,Winter,Police,Other,77,Male,63,knife,auto,3,Acquaintance,IPC 302 (Murder),Murder
 The accused forcibly entered the victim’s home and committed the crime.,Jaisalmer,Station A,highway,2024-12-06,08:13:54,Friday,Spring,Relative,Male,38,Male,62,bare hands,auto,1,Acquaintance,IPC 376 (Rape),Rape
 The accused used a knife to fatally wound the victim at their residence.,Salumbar,Station A,highway,2025-05-20,23:04:51,Tuesday,Monsoon,Police,Other,73,Other,16,knife,bike,5,Acquaintance,IPC 302 (Murder),Murder
@@ -761,7 +760,7 @@ Unknown suspects broke into a residential area and stole valuables.,Tonk,Station
 "A heated argument turned violent at the market, injuring one person.",Tonk,Station A,market,2025-01-05,16:40:54,Sunday,Monsoon,Relative,Female,30,Female,51,knife,scooter,5,Neighbor,IPC 323 (Assault),Assault
 A local resident was found murdered in a bus stop under mysterious circumstances.,Jalore,Station B,bus stop,2024-12-13,05:06:17,Friday,Monsoon,Victim,Male,39,Male,63,bare hands,bike,3,Friend,IPC 302 (Murder),Murder
 The victim’s vehicle was broken into and items were stolen.,Banswara,Station C,highway,2025-04-25,07:54:46,Friday,Winter,Victim,Male,13,Female,17,bare hands,scooter,5,Friend,IPC 379 (Theft),Theft
-A theft was reported where items were stolen from a school.,Balotra,Station C,school,2025-03-26,16:12:57,Wednesday,Summer,Eyewitness,Other,74,Other,43,gun,auto,4,Neighbor,IPC 379 (Theft),Theft
+A theft was reported where items were stolen from a school.,Balotra,Station C,school,2025-03-26,16:12:57,Wednesday,Summer,Eyewitness,Other,74,Other,43,gun,auto,4,Friend,IPC 379 (Theft),Theft
 A theft was reported where items were stolen from a market.,Churu,Station B,market,2025-01-18,11:07:32,Saturday,Monsoon,Relative,Male,28,Male,46,stick,scooter,5,Stranger,IPC 379 (Theft),Theft
 The victim reported being sexually assaulted by a Stranger in a highway.,Alwar,Station A,highway,2025-01-23,03:56:11,Thursday,Spring,Eyewitness,Female,71,Other,33,knife,auto,5,Stranger,IPC 376 (Rape),Rape
 The victim’s vehicle was broken into and items were stolen.,Dausa,Station A,residential area,2024-12-09,01:01:38,Monday,Winter,Eyewitness,Other,22,Female,67,bare hands,car,2,Stranger,IPC 379 (Theft),Theft
@@ -811,7 +810,7 @@ The victim was abducted and raped in a moving vehicle by unknown individuals.,Ph
 A gang of masked robbers looted a store at a park.,Jodhpur,Station A,park,2025-01-23,23:02:37,Thursday,Summer,Victim,Other,62,Other,50,bare hands,car,4,Friend,IPC 392 (Robbery),Robbery
 The victim was attacked and killed using a gun at a bus stop.,Bhilwara,Station B,bus stop,2025-04-12,07:47:01,Saturday,Winter,Police,Female,22,Female,23,gun,auto,1,Stranger,IPC 302 (Murder),Murder
 "A heated argument turned violent at the bus stop, injuring one person.",Jhunjhunu,Station A,bus stop,2024-10-28,17:17:26,Monday,Monsoon,Victim,Male,38,Female,19,knife,auto,4,Neighbor,IPC 323 (Assault),Assault
-The victim reported being sexually assaulted by a Neighbor in a bus stop.,Deeg,Station C,bus stop,2025-02-24,06:16:22,Monday,Summer,Eyewitness,Male,66,Other,30,stick,auto,4,Acquaintance,IPC 376 (Rape),Rape
+The victim reported being sexually assaulted by a Neighbor in a bus stop.,Deeg,Station C,bus stop,2025-02-24,06:16:22,Monday,Summer,Eyewitness,Male,66,Other,30,stick,auto,4,Friend,IPC 376 (Rape),Rape
 The accused used a gun to fatally wound the victim at their residence.,Salumbar,Station B,market,2024-11-05,21:36:54,Tuesday,Monsoon,Victim,Male,71,Male,58,gun,bike,2,Relative,IPC 302 (Murder),Murder
 The accused physically assaulted the victim using a stick at a park.,Barmer,Station C,park,2024-09-14,00:44:51,Saturday,Monsoon,Police,Female,47,Female,35,stick,car,1,Relative,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a residential area.,Kotputli-Behror,Station C,residential area,2024-09-23,02:54:05,Monday,Summer,Police,Male,48,Male,54,stick,bike,3,Acquaintance,IPC 376 (Rape),Rape
@@ -820,7 +819,7 @@ A local resident was found murdered in a school under mysterious circumstances.,
 Pickpocketing occurred in a crowded market.,Karauli,Station B,market,2024-11-17,21:56:50,Sunday,Winter,Eyewitness,Male,50,Other,58,bare hands,car,1,Friend,IPC 379 (Theft),Theft
 The victim was attacked from behind with a knife at a school.,Pratapgarh,Station A,school,2024-08-04,22:19:19,Sunday,Summer,Victim,Other,68,Male,64,knife,auto,4,Neighbor,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a bus stop.,Udaipur,Station A,bus stop,2025-04-28,22:33:52,Monday,Monsoon,Eyewitness,Female,15,Male,24,gun,auto,1,Neighbor,IPC 376 (Rape),Rape
-The victim was robbed at gunpoint while returning home from work.,Kota,Station B,school,2024-11-11,18:14:32,Monday,Monsoon,Relative,Male,17,Other,39,bare hands,scooter,3,Neighbor,IPC 392 (Robbery),Robbery
+The victim was robbed at gunpoint while returning home from work.,Kota,Station B,school,2024-11-11,18:14:32,Monday,Monsoon,Relative,Male,17,Other,39,bare hands,scooter,3,Acquaintance,IPC 392 (Robbery),Robbery
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Dholpur,Station A,market,2024-12-04,13:35:43,Wednesday,Winter,Eyewitness,Other,59,Female,38,knife,scooter,2,Neighbor,IPC 376 (Rape),Rape
 Unknown suspects broke into a school and stole valuables.,Bikaner,Station B,school,2024-12-10,08:49:49,Tuesday,Monsoon,Eyewitness,Other,68,Male,59,knife,bike,1,Friend,IPC 379 (Theft),Theft
 The victim’s vehicle was broken into and items were stolen.,Banswara,Station B,residential area,2024-11-18,16:48:45,Monday,Monsoon,Police,Male,34,Male,64,knife,bike,5,Relative,IPC 379 (Theft),Theft
@@ -859,7 +858,7 @@ The victim was abducted and raped in a moving vehicle by unknown individuals.,Aj
 The accused physically assaulted the victim using a knife at a bus stop.,Sri Ganganagar,Station B,bus stop,2024-06-30,23:40:42,Sunday,Monsoon,Eyewitness,Male,16,Male,61,knife,scooter,1,Neighbor,IPC 323 (Assault),Assault
 A theft was reported where items were stolen from a school.,Deeg,Station B,school,2025-03-13,18:11:32,Thursday,Winter,Eyewitness,Male,43,Female,57,stick,auto,4,Acquaintance,IPC 379 (Theft),Theft
 The victim reported being sexually assaulted by a Friend in a market.,Baran,Station C,market,2024-06-06,09:13:43,Thursday,Monsoon,Relative,Male,18,Male,43,knife,car,5,Friend,IPC 376 (Rape),Rape
-Pickpocketing occurred in a crowded market.,Jalore,Station C,market,2024-12-22,14:32:42,Sunday,Summer,Relative,Other,72,Female,45,stick,bike,5,Acquaintance,IPC 379 (Theft),Theft
+Pickpocketing occurred in a crowded market.,Jalore,Station C,market,2024-12-22,14:32:42,Sunday,Summer,Relative,Other,72,Female,45,stick,bike,5,Friend,IPC 379 (Theft),Theft
 The body of the victim was discovered at a market with signs of struggle.,Deeg,Station C,market,2025-02-20,11:25:48,Thursday,Winter,Police,Female,73,Female,31,bare hands,scooter,3,Neighbor,IPC 302 (Murder),Murder
 Police received a report of assault involving two individuals at a market.,Ajmer,Station B,market,2024-12-31,19:50:54,Tuesday,Monsoon,Eyewitness,Male,20,Female,61,stick,auto,3,Acquaintance,IPC 323 (Assault),Assault
 The accused physically assaulted the victim using a stick at a school.,Chittorgarh,Station A,school,2024-08-07,05:23:00,Wednesday,Summer,Eyewitness,Other,11,Male,70,stick,car,3,Stranger,IPC 323 (Assault),Assault
@@ -879,11 +878,11 @@ The accused physically assaulted the victim using a stick at a market.,Bundi,Sta
 Unknown suspects broke into a market and stole valuables.,Balotra,Station A,market,2024-12-29,20:31:23,Sunday,Summer,Eyewitness,Female,29,Male,32,gun,car,4,Relative,IPC 379 (Theft),Theft
 The accused forcefully snatched the victim's belongings and fled on a scooter.,Dholpur,Station A,park,2025-01-17,18:29:01,Friday,Winter,Eyewitness,Male,48,Female,20,knife,scooter,1,Relative,IPC 392 (Robbery),Robbery
 Jewelry and cash were stolen from a highway during daytime.,Dholpur,Station C,highway,2024-12-03,09:35:02,Tuesday,Spring,Eyewitness,Female,38,Male,59,stick,bike,3,Friend,IPC 379 (Theft),Theft
-"A violent brawl broke out at a park, leading to serious injuries.",Jaipur,Station A,park,2024-08-03,18:19:34,Saturday,Winter,Relative,Other,17,Other,15,bare hands,scooter,3,Neighbor,IPC 323 (Assault),Assault
+"A violent brawl broke out at a park, leading to serious injuries.",Jaipur,Station A,park,2024-08-03,18:19:34,Saturday,Winter,Relative,Other,17,Other,15,bare hands,scooter,3,Friend,IPC 323 (Assault),Assault
 "A violent brawl broke out at a residential area, leading to serious injuries.",Jalore,Station B,residential area,2024-12-05,00:13:29,Thursday,Monsoon,Victim,Male,64,Other,41,knife,auto,4,Relative,IPC 323 (Assault),Assault
 Police received a report of assault involving two individuals at a bus stop.,Salumbar,Station B,bus stop,2025-03-14,11:18:24,Friday,Winter,Eyewitness,Other,13,Female,53,knife,auto,2,Neighbor,IPC 323 (Assault),Assault
 The victim was attacked from behind with a knife at a school.,Didwana-Kuchaman,Station A,school,2025-04-06,19:21:00,Sunday,Winter,Eyewitness,Female,62,Other,24,knife,car,1,Neighbor,IPC 323 (Assault),Assault
-The victim was abducted and raped in a moving vehicle by unknown individuals.,Jhalawar,Station B,bus stop,2024-06-05,22:51:48,Wednesday,Monsoon,Victim,Other,58,Other,57,knife,bike,5,Acquaintance,IPC 376 (Rape),Rape
+The victim was abducted and raped in a moving vehicle by unknown individuals.,Jhalawar,Station B,bus stop,2024-06-05,22:51:48,Wednesday,Monsoon,Victim,Other,58,Other,57,knife,bike,5,Relative,IPC 376 (Rape),Rape
 The victim was attacked and killed using a gun at a park.,Dholpur,Station C,park,2025-02-14,17:32:59,Friday,Monsoon,Police,Male,43,Male,34,gun,auto,3,Relative,IPC 302 (Murder),Murder
 The accused forcefully snatched the victim's belongings and fled on a scooter.,Sirohi,Station C,bus stop,2025-05-15,15:14:56,Thursday,Summer,Victim,Other,51,Other,60,gun,scooter,3,Friend,IPC 392 (Robbery),Robbery
 Police received a report of assault involving two individuals at a market.,Deeg,Station B,market,2025-03-10,06:57:38,Monday,Winter,Police,Male,75,Other,46,knife,bike,5,Acquaintance,IPC 323 (Assault),Assault
@@ -899,10 +898,10 @@ Unknown suspects broke into a market and stole valuables.,Udaipur,Station C,mark
 A theft was reported where items were stolen from a bus stop.,Tonk,Station C,bus stop,2024-12-14,11:36:43,Saturday,Monsoon,Eyewitness,Female,36,Female,60,knife,bike,3,Friend,IPC 379 (Theft),Theft
 The accused used a gun to fatally wound the victim at their residence.,Balotra,Station B,park,2025-05-18,03:51:22,Sunday,Spring,Victim,Female,32,Female,39,gun,auto,5,Friend,IPC 302 (Murder),Murder
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Udaipur,Station A,bus stop,2025-02-21,04:22:21,Friday,Winter,Victim,Other,50,Male,56,stick,bike,2,Stranger,IPC 376 (Rape),Rape
-An incident of rape was reported where the accused lured the victim to a market.,Phalodi,Station A,market,2024-08-18,18:23:44,Sunday,Winter,Police,Other,51,Other,36,stick,bike,2,Neighbor,IPC 376 (Rape),Rape
+An incident of rape was reported where the accused lured the victim to a market.,Phalodi,Station A,market,2024-08-18,18:23:44,Sunday,Winter,Police,Other,51,Other,36,stick,bike,2,Acquaintance,IPC 376 (Rape),Rape
 The victim’s vehicle was broken into and items were stolen.,Hanumangarh,Station B,school,2025-02-02,16:12:11,Sunday,Winter,Police,Male,41,Female,17,gun,car,5,Friend,IPC 379 (Theft),Theft
 A gang of masked robbers looted a store at a bus stop.,Dungarpur,Station B,bus stop,2025-05-29,15:07:44,Thursday,Monsoon,Relative,Other,21,Other,66,knife,bike,3,Friend,IPC 392 (Robbery),Robbery
-Pickpocketing occurred in a crowded market.,Chittorgarh,Station A,market,2024-12-28,12:18:30,Saturday,Summer,Police,Other,53,Male,38,bare hands,car,5,Stranger,IPC 379 (Theft),Theft
+Pickpocketing occurred in a crowded market.,Chittorgarh,Station A,market,2024-12-28,12:18:30,Saturday,Summer,Police,Other,53,Male,38,bare hands,car,5,Friend,IPC 379 (Theft),Theft
 Pickpocketing occurred in a crowded market.,Sri Ganganagar,Station B,market,2025-05-21,15:58:43,Wednesday,Monsoon,Victim,Female,19,Female,22,stick,bike,5,Relative,IPC 379 (Theft),Theft
 A theft was reported where items were stolen from a school.,Hanumangarh,Station A,school,2025-01-04,19:53:44,Saturday,Summer,Police,Female,38,Female,62,bare hands,scooter,3,Neighbor,IPC 379 (Theft),Theft
 The victim was attacked and killed using a knife at a market.,Beawar,Station B,market,2025-05-24,12:25:57,Saturday,Spring,Police,Other,61,Male,45,knife,bike,1,Stranger,IPC 302 (Murder),Murder
@@ -938,7 +937,7 @@ An incident of rape was reported where the accused lured the victim to a bus sto
 Jewelry and cash were stolen from a highway during daytime.,Udaipur,Station A,highway,2024-09-06,22:28:07,Friday,Spring,Police,Male,77,Male,53,bare hands,scooter,3,Stranger,IPC 379 (Theft),Theft
 Eyewitnesses reported a fatal altercation involving a bare hands near the residential area.,Bhilwara,Station B,residential area,2024-08-11,17:21:18,Sunday,Winter,Eyewitness,Other,11,Male,15,bare hands,car,2,Acquaintance,IPC 302 (Murder),Murder
 Robbers stormed a house and made away with cash and gold.,Phalodi,Station B,school,2025-01-23,06:40:04,Thursday,Winter,Relative,Female,41,Other,47,bare hands,car,5,Neighbor,IPC 392 (Robbery),Robbery
-A gang of masked robbers looted a store at a bus stop.,Alwar,Station A,bus stop,2025-03-18,06:38:29,Tuesday,Spring,Eyewitness,Male,30,Male,60,bare hands,bike,4,Friend,IPC 392 (Robbery),Robbery
+A gang of masked robbers looted a store at a bus stop.,Alwar,Station A,bus stop,2025-03-18,06:38:29,Tuesday,Spring,Eyewitness,Male,30,Male,60,bare hands,bike,4,Stranger,IPC 392 (Robbery),Robbery
 The victim was abducted and raped in a moving vehicle by unknown individuals.,Bhilwara,Station B,bus stop,2024-08-31,03:59:08,Saturday,Monsoon,Eyewitness,Female,38,Other,22,bare hands,car,1,Acquaintance,IPC 376 (Rape),Rape
 Pickpocketing occurred in a crowded highway.,Deeg,Station B,highway,2025-02-22,14:01:38,Saturday,Spring,Relative,Female,47,Other,69,knife,scooter,4,Neighbor,IPC 379 (Theft),Theft
 A gang of masked robbers looted a store at a highway.,Hanumangarh,Station C,highway,2024-10-01,07:13:30,Tuesday,Monsoon,Victim,Other,15,Female,21,bare hands,bike,4,Relative,IPC 392 (Robbery),Robbery
@@ -947,7 +946,7 @@ The victim’s vehicle was broken into and items were stolen.,Salumbar,Station A
 Jewelry and cash were stolen from a market during daytime.,Kota,Station B,market,2024-10-12,10:27:59,Saturday,Spring,Police,Female,62,Female,24,gun,bike,5,Relative,IPC 379 (Theft),Theft
 The accused used a gun to fatally wound the victim at their residence.,Deeg,Station A,bus stop,2025-04-04,00:29:26,Friday,Summer,Police,Female,68,Male,44,gun,bike,3,Relative,IPC 302 (Murder),Murder
 A rape case was registered involving a Acquaintance in an isolated residential area.,Pali,Station B,residential area,2024-10-22,17:05:05,Tuesday,Spring,Victim,Other,66,Male,18,bare hands,car,5,Acquaintance,IPC 376 (Rape),Rape
-"A violent brawl broke out at a residential area, leading to serious injuries.",Nagaur,Station A,residential area,2025-02-04,22:56:36,Tuesday,Winter,Relative,Other,29,Other,23,stick,bike,5,Stranger,IPC 323 (Assault),Assault
+"A violent brawl broke out at a residential area, leading to serious injuries.",Nagaur,Station A,residential area,2025-02-04,22:56:36,Tuesday,Winter,Relative,Other,29,Other,23,stick,bike,5,Neighbor,IPC 323 (Assault),Assault
 The accused forcefully snatched the victim's belongings and fled on a auto.,Jhunjhunu,Station A,residential area,2024-07-12,07:41:07,Friday,Monsoon,Victim,Female,36,Other,68,knife,auto,1,Relative,IPC 392 (Robbery),Robbery
 "A violent brawl broke out at a bus stop, leading to serious injuries.",Ajmer,Station C,bus stop,2025-05-13,03:32:33,Tuesday,Monsoon,Relative,Other,51,Male,57,knife,car,5,Neighbor,IPC 323 (Assault),Assault
 An incident of rape was reported where the accused lured the victim to a school.,Balotra,Station C,school,2024-09-26,18:47:09,Thursday,Monsoon,Eyewitness,Female,15,Male,44,knife,auto,3,Friend,IPC 376 (Rape),Rape
@@ -973,7 +972,7 @@ A gang of masked robbers looted a store at a highway.,Khairthal-Tijara,Station C
 Jewelry and cash were stolen from a residential area during daytime.,Tonk,Station A,residential area,2024-08-30,16:32:54,Friday,Summer,Police,Other,50,Other,35,gun,scooter,2,Friend,IPC 379 (Theft),Theft
 A theft was reported where items were stolen from a park.,Bikaner,Station A,park,2024-09-07,08:19:10,Saturday,Summer,Victim,Other,79,Male,30,stick,auto,4,Acquaintance,IPC 379 (Theft),Theft
 Jewelry and cash were stolen from a highway during daytime.,Didwana-Kuchaman,Station C,highway,2025-04-08,00:28:59,Tuesday,Summer,Police,Female,62,Other,38,knife,bike,2,Neighbor,IPC 379 (Theft),Theft
-The accused used a bare hands to fatally wound the victim at their residence.,Bharatpur,Station B,park,2025-01-24,16:54:44,Friday,Monsoon,Eyewitness,Male,63,Male,46,bare hands,car,4,Acquaintance,IPC 302 (Murder),Murder
+The accused used a bare hands to fatally wound the victim at their residence.,Bharatpur,Station B,park,2025-01-24,16:54:44,Friday,Monsoon,Eyewitness,Male,63,Male,46,bare hands,car,4,Stranger,IPC 302 (Murder),Murder
 The accused physically assaulted the victim using a bare hands at a school.,Dholpur,Station B,school,2025-03-14,10:07:30,Friday,Summer,Eyewitness,Male,14,Female,32,bare hands,scooter,1,Acquaintance,IPC 323 (Assault),Assault
 The victim reported being sexually assaulted by a Acquaintance in a highway.,Hanumangarh,Station A,highway,2024-06-03,14:38:22,Monday,Spring,Victim,Other,79,Other,25,stick,scooter,5,Acquaintance,IPC 376 (Rape),Rape
 The accused physically assaulted the victim using a knife at a school.,Salumbar,Station A,school,2025-02-05,02:27:49,Wednesday,Monsoon,Police,Male,37,Male,47,knife,bike,4,Neighbor,IPC 323 (Assault),Assault
@@ -998,5 +997,5 @@ The accused physically assaulted the victim using a bare hands at a residential 
 The accused forcefully snatched the victim's belongings and fled on a scooter.,Sawai Madhopur,Station B,residential area,2025-01-08,13:09:19,Wednesday,Spring,Victim,Female,27,Male,51,gun,scooter,3,Stranger,IPC 392 (Robbery),Robbery
 A theft was reported where items were stolen from a residential area.,Alwar,Station B,residential area,2024-06-02,08:15:20,Sunday,Summer,Victim,Other,38,Female,62,knife,scooter,4,Acquaintance,IPC 379 (Theft),Theft
 Eyewitnesses reported a fatal altercation involving a stick near the residential area.,Didwana-Kuchaman,Station B,residential area,2024-07-01,23:23:59,Monday,Monsoon,Police,Male,32,Female,26,stick,bike,4,Friend,IPC 302 (Murder),Murder
-The victim was attacked and killed using a gun at a park.,Udaipur,Station A,park,2025-03-24,00:49:50,Monday,Monsoon,Victim,Other,44,Female,41,gun,car,3,Stranger,IPC 302 (Murder),Murder
+The victim was attacked and killed using a gun at a park.,Udaipur,Station A,park,2025-03-24,00:49:50,Monday,Monsoon,Victim,Other,44,Female,41,gun,car,3,Neighbor,IPC 302 (Murder),Murder
 Pickpocketing occurred in a crowded school.,Dungarpur,Station A,school,2025-01-05,03:41:12,Sunday,Winter,Eyewitness,Male,37,Female,51,gun,bike,3,Friend,IPC 379 (Theft),Theft
