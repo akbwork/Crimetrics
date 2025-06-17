@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Python 3.12 or higher installed
-- [pip](https://pip.pypa.io/en/stable/) (Python package manager)
+- [Ollama](https://ollama.com/download) installed and running
 
 ## Installation
 
@@ -22,6 +22,15 @@
 3. **Install Dependencies**
     ```bash
     pip install -r requirements.txt
+    ```
+
+4. **Download Required Ollama Models**
+
+    Ensure Ollama is running, then download the required models:
+    ```bash
+    ollama run deepseek-r1:latest
+    ollama run llama3:8b
+    ollama run llama3:latest
     ```
 
 ## Setup Instructions
@@ -47,6 +56,7 @@
 ## Troubleshooting
 
 - Ensure all dependencies are installed.
+- Ensure Ollama is installed, running, and the required models are downloaded.
 - Double-check all file paths for correctness after replacing `ananthakrishna`.
 
 ---
