@@ -13,9 +13,14 @@ st.set_page_config(
 )
 
 # Add the auto_complete_module_1 directory to Python path
-module_path = "/Users/ananthakrishnab/Desktop/Projects/Crimmetrics_Abi/Crimetrics/dev_akb/auto_complete_module_1"
+
+module_path = os.path.join("..", "auto_complete_module_1")
+
+# module_path = "/Users/ananthakrishnab/Desktop/Projects/Crimmetrics_Abi/Crimetrics/dev_akb/auto_complete_module_1"
 if module_path not in sys.path:
     sys.path.append(module_path)
+
+
 
 # Now try to import the module
 try:

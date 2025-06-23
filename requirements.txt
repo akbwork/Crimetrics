@@ -11,3 +11,6 @@ paddlex==3.0.0
 requests
 seaborn
 matplotlib
+wordcloud
+numpy
+xgboost

@@ -16,7 +16,12 @@ import re
 
 # Add the OCR pipeline directory to Python path to import modules
 # Get the absolute path to the orc_pipeline_0 directory
-orc_pipeline_path = "/Users/ananthakrishnab/Desktop/Projects/Crimmetrics_Abi/Crimetrics/dev_akb/orc_pipeline_0"
+
+orc_pipeline_path = os.path.join("..", "ocr_pipeline_0")
+
+
+# orc_pipeline_path = "/Users/ananthakrishnab/Desktop/Projects/Crimmetrics_Abi/Crimetrics/dev_akb/orc_pipeline_0"
+
 if orc_pipeline_path not in sys.path:
     sys.path.append(orc_pipeline_path)
 

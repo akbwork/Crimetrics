@@ -28,7 +28,10 @@ BertTokenizerFast.__init__ = patched_init
 from sentence_transformers import SentenceTransformer
 
 # Define model directory
-model_dir = '/Users/ananthakrishnab/Desktop/Projects/Crimmetrics_Abi/Crimetrics/dev_akb/categorisation_module_3'
+# model_dir = '/Users/ananthakrishnab/Desktop/Projects/Crimmetrics_Abi/Crimetrics/dev_akb/categorisation_module_3'
+
+model_dir = os.path.join("..", "categorisation_module_3")
+
 
 # Load models
 @st.cache_resource
